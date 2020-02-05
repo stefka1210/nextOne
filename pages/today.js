@@ -2,9 +2,8 @@ import Layout from '../components/MyLayout';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
-const Index = props => {
-    console.log('Hier:::::::::', props);
-    // return null;
+const Today = props => {
+    console.log('Hier Props >>>>>>', props);
     return (
         <Layout>
             <h1>NHL matches</h1>
@@ -23,32 +22,23 @@ const Index = props => {
         </Layout>
     );
 };
-Index.getInitialProps = async function() {
-    // const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
+Today.getInitialProps = async function() {
     const res = await fetch('http://live.nhl.com/GameData/SeasonSchedule-20192020.json');
     const data = await res.json();
 
-    console.log(`team data fetched. Count: ${data.length}`);
-
-    // const matchesToday = data.filter(function(entry) {
-    //     return entry.est == '20200204 19:00:00';
-    // });
-
     const searchDate = '20200204';
 
-    const matchesToday = data.filter(function(entry) {
+    const matchesOnDate = data.filter(function(entry) {
         return entry.est.indexOf(searchDate) > -1;
     });
 
-    console.log('matchesToday::::', matchesToday.length);
+    console.log('matchesToday::::', matchesOnDate.length);
 
     return {
-        // matches: data
-        // matches: data.find(entry => entry['est' === '20200204'])
-        matches: matchesToday
-        // teams: data.length
+        matches: matchesOnDate
     };
+
     //Beispiel
     // {"id":2019020814,"est":"20200204 19:00:00","a":"VGK","h":"TBL"}
 };
-export default Index;
+export default Today;
