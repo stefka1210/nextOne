@@ -13733,7 +13733,7 @@ Today.getInitialProps = function _callee() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!*********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftoday&absolutePagePath=%2FUsers%2Fstefka1210%2FtheLab%2FnextOne%2Fpages%2Ftoday.js ***!
   \*********************************************************************************************************************************/
@@ -13756,5 +13756,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=today.js.map
