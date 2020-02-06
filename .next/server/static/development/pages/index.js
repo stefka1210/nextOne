@@ -190,11 +190,10 @@ var _jsxFileName = "/Users/stefka1210/theLab/nextOne/components/MyLayout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-const PageLayout = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div`
-    background: #f2f2f2;
-    font-family: 'Roboto Condensed', sans-serif;
-    width: 640px;
-`;
+const PageLayout = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
+  displayName: "MyLayout__PageLayout",
+  componentId: "sc-1faz02d-0"
+})(["background:#f2f2f2;font-family:'Roboto Condensed',sans-serif;width:640px;"]);
 
 const Layout = props => __jsx(PageLayout, {
   __source: {
@@ -1913,35 +1912,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Team = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div`
-    display: block;
-    margin: 8px;
-`;
-const ATag = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.a`
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    padding: 8px;
-    text-transform: uppercase;
-    cursor: pointer;
-    background: white;
-    &:hover {
-        background: #414141;
-        color: white;
-    }
-`;
-const TeamId = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div`
-    font-size: 24px;
-    text-align: right;
-    width: 36px;
-    margin-right: 16px;
-`;
-const LocName = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div`
-    font-size: 14px;
-`;
-const NickName = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div`
-    font-size: 20px;
-`;
+const Team = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "pages__Team",
+  componentId: "sc-1h0jejb-0"
+})(["display:block;margin:8px;"]);
+const ATag = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.a.withConfig({
+  displayName: "pages__ATag",
+  componentId: "sc-1h0jejb-1"
+})(["display:flex;align-items:center;font-weight:700;padding:8px;text-transform:uppercase;cursor:pointer;background:white;&:hover{background:#414141;color:white;}"]);
+const TeamId = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "pages__TeamId",
+  componentId: "sc-1h0jejb-2"
+})(["font-size:24px;text-align:right;width:36px;margin-right:16px;"]);
+const LocName = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "pages__LocName",
+  componentId: "sc-1h0jejb-3"
+})(["font-size:14px;"]);
+const NickName = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "pages__NickName",
+  componentId: "sc-1h0jejb-4"
+})(["font-size:20px;"]);
 
 const Index = props => {
   console.log(props);
