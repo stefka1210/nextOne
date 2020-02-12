@@ -1,0 +1,282 @@
+
+[
+  {
+    "id": 1,
+    "shortname": "njd",
+    "fullname": "New Jersey Devils",
+    "placename": "New Jersey",
+    "nickname": "Devils",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 2,
+    "shortname": "nyi",
+    "fullname": "New York Islanders",
+    "placename": "New York",
+    "nickname": "Islanders",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 3,
+    "shortname": "nyr",
+    "fullname": "New York Rangers",
+    "placename": "New York",
+    "nickname": "Rangers",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 4,
+    "shortname": "phi",
+    "fullname": "Philadelphia Flyers",
+    "placename": "Philadelphia",
+    "nickname": "Flyers",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 5,
+    "shortname": "pit",
+    "fullname": "Pittsburgh Penguins",
+    "placename": "Pittsburgh",
+    "nickname": "Penguins",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 6,
+    "shortname": "bos",
+    "fullname": "Boston Bruins",
+    "placename": "Boston",
+    "nickname": "Bruins",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 7,
+    "shortname": "buf",
+    "fullname": "Buffalo Sabres",
+    "placename": "Buffalo",
+    "nickname": "Sabres",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 8,
+    "shortname": "mtl",
+    "fullname": "Montreal Canadians",
+    "placename": "Montreal",
+    "nickname": "Canadians",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 9,
+    "shortname": "ott",
+    "fullname": "Ottawa Senators",
+    "placename": "Ottawa",
+    "nickname": "Senators",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 10,
+    "shortname": "tor",
+    "fullname": "Toronto Mapple Leafs",
+    "placename": "Toronto",
+    "nickname": "Mapple Leafs",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 12,
+    "shortname": "car",
+    "fullname": "Carolina Hurricanes",
+    "placename": "Carolina",
+    "nickname": "Hurricanes",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 13,
+    "shortname": "fla",
+    "fullname": "Florida Panthers",
+    "placename": "Florida",
+    "nickname": "Panthers",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 14,
+    "shortname": "tpl",
+    "fullname": "Tampa Bay Lightning",
+    "placename": "Tampa Bay",
+    "nickname": "Lightning",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 15,
+    "shortname": "wsh",
+    "fullname": "Washington Capitols",
+    "placename": "Washington",
+    "nickname": "Capitols",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 16,
+    "shortname": "chi",
+    "fullname": "Chicago Blackhawks",
+    "placename": "Chicago",
+    "nickname": "Blackhawks",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 17,
+    "shortname": "det",
+    "fullname": "Detroit Red Wings",
+    "placename": "Detroit",
+    "nickname": "Red Wings",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "id": 18,
+    "shortname": "nsh",
+    "fullname": "Nashville Predators",
+    "placename": "Nashville",
+    "nickname": "Predators",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 19,
+    "shortname": "stl",
+    "fullname": "St. Louis Blues",
+    "placename": "St. Louis",
+    "nickname": "Blues",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 20,
+    "shortname": "cgy",
+    "fullname": "Calgary Flames",
+    "placename": "Calgary",
+    "nickname": "Flames",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 21,
+    "shortname": "col",
+    "fullname": "Colorado Avalanche",
+    "placename": "Colorado",
+    "nickname": "Avalanche",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 22,
+    "shortname": "edm",
+    "fullname": "Edmonton Oilers",
+    "placename": "Edmonton",
+    "nickname": "Oilers",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 23,
+    "shortname": "van",
+    "fullname": "Vancouver Canucks",
+    "placename": "Vancouver",
+    "nickname": "Canucks",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 24,
+    "shortname": "ana",
+    "fullname": "Anaheim Ducks",
+    "placename": "Anaheim",
+    "nickname": "Ducks",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 25,
+    "shortname": "dal",
+    "fullname": "Dallas Stars",
+    "placename": "Dallas",
+    "nickname": "Stars",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 26,
+    "shortname": "lak",
+    "fullname": "Los Angeles Kings",
+    "placename": "Los Angeles",
+    "nickname": "Kings",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 28,
+    "shortname": "sjs",
+    "fullname": "San Jose Sharks",
+    "placename": "San Jose",
+    "nickname": "Sharks",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 29,
+    "shortname": "cbj",
+    "fullname": "Columbus Blue Jackets",
+    "placename": "Columbus",
+    "nickname": "Blue Jackets",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  {
+    "id": 30,
+    "shortname": "min",
+    "fullname": "Minnesota Wild",
+    "placename": "Minnesota",
+    "nickname": "Wild",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 52,
+    "shortname": "wpg",
+    "fullname": "Winnipeg Jets",
+    "placename": "Winnipeg",
+    "nickname": "Jets",
+    "conference": "Western",
+    "division": "Central"
+  },
+  {
+    "id": 53,
+    "shortname": "ari",
+    "fullname": "Arizona Coyotes",
+    "placename": "Arizona",
+    "nickname": "Coyotes",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "id": 54,
+    "shortname": "vkg",
+    "fullname": "Vegas Golden Knights",
+    "placename": "Vegas",
+    "nickname": "Golden Knights",
+    "conference": "Western",
+    "division": "Pacific"
+  }
+]

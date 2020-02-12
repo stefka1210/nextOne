@@ -1,22 +1,27 @@
 import Layout from '../../components/MyLayout';
-import fetch from 'isomorphic-unfetch';
+import SeasonSchedules from '../../data/SeasonSchedule-20192020';
 
-const Post = props => (
+const Match = props => (
     <Layout>
-        <h1>{props.show.name}</h1>
-        <p>{props.show.summary.replace(/<[/]?[pb]>/g, '')}</p>
-        {props.show.image ? <img src={props.show.image.medium} /> : null}
+        <h1>The Match with {props.match.id}</h1>
+        <div>
+            <div>{props.match.a}</div>
+            <div>@</div>
+            <div>{props.match.h}</div>
+        </div>
     </Layout>
 );
 
-Post.getInitialProps = async function(context) {
+Match.getInitialProps = async function(context) {
     const {id} = context.query;
-    const res = await fetch(`https://api.tvmaze.com/shows/${id}`);
-    const show = await res.json();
+    const data = SeasonSchedules;
 
-    console.log(`Fetched show: ${show.name}`);
+    console.log('theID::::' + typeof id);
 
-    return {show};
+    const match = Object.values(data).find(entry => entry.id == `${id}`);
+    console.log('match', match);
+
+    return {match};
 };
 
-export default Post;
+export default Match;
