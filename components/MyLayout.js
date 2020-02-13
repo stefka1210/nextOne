@@ -2,9 +2,10 @@ import Header from './Header';
 import styled from 'styled-components';
 
 const PageLayout = styled.div`
-    background: #f2f2f2;
     font-family: 'Roboto Condensed', sans-serif;
-    width: 640px;
+    width: 1596px;
+    width: calc(100vw - 80px);
+    padding: 40px;
 `;
 
 const Layout = props => (
@@ -19,7 +20,7 @@ const Layout = props => (
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background: #f2f2f2;
+                background: white;
             }
         `}</style>
     </PageLayout>

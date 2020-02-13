@@ -13,61 +13,65 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 var _jsxFileName = "/Users/stefka1210/theLab/nextOne/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var linkStyle = {
-  marginRight: 15
-};
+
+var ATag = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a.withConfig({
+  displayName: "Header__ATag",
+  componentId: "sc-15ikbb6-0"
+})(["margin-right:60px;cursor:pointer;"]);
+var HeaderContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].header.withConfig({
+  displayName: "Header__HeaderContainer",
+  componentId: "sc-15ikbb6-1"
+})(["padding:0px;"]);
 
 var Header = function Header() {
-  return __jsx("div", {
+  return __jsx(HeaderContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     },
     __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+  }, __jsx(ATag, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 15
     },
     __self: this
   }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/schedules",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+  }, __jsx(ATag, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 18
     },
     __self: this
   }, "Schedules")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 23
     },
     __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+  }, __jsx(ATag, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 24
     },
     __self: this
   }, "About")));
@@ -101,25 +105,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 var PageLayout = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "MyLayout__PageLayout",
   componentId: "sc-1faz02d-0"
-})(["background:#f2f2f2;font-family:'Roboto Condensed',sans-serif;width:640px;"]);
+})(["font-family:'Roboto Condensed',sans-serif;width:1596px;width:calc(100vw - 80px);padding:40px;"]);
 
 var Layout = function Layout(props) {
   return __jsx(PageLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3471796291",
+    id: "4294675624",
     __self: this
-  }, "body,html{margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:#f2f2f2;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdGVma2ExMjEwL3RoZUxhYi9uZXh0T25lL2NvbXBvbmVudHMvTXlMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYTJCLEFBSTBCLFNBQ0MsVUFDRywwRUFDTSw2RkFDSSxtR0FDSixtQkFDdkIiLCJmaWxlIjoiL1VzZXJzL3N0ZWZrYTEyMTAvdGhlTGFiL25leHRPbmUvY29tcG9uZW50cy9NeUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdzdHlsZWQtY29tcG9uZW50cyc7XG5cbmNvbnN0IFBhZ2VMYXlvdXQgPSBzdHlsZWQuZGl2YFxuICAgIGJhY2tncm91bmQ6ICNmMmYyZjI7XG4gICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcbiAgICB3aWR0aDogNjQwcHg7XG5gO1xuXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXG4gICAgPFBhZ2VMYXlvdXQ+XG4gICAgICAgIDxIZWFkZXIgLz5cbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keSxcbiAgICAgICAgICAgIGh0bWwge1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZjJmMmYyO1xuICAgICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgPC9QYWdlTGF5b3V0PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/stefka1210/theLab/nextOne/components/MyLayout.js */"));
+  }, "body,html{margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdGVma2ExMjEwL3RoZUxhYi9uZXh0T25lL2NvbXBvbmVudHMvTXlMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYzJCLEFBSTBCLFNBQ0MsVUFDRywwRUFDTSw2RkFDSSxtR0FDTixpQkFDckIiLCJmaWxlIjoiL1VzZXJzL3N0ZWZrYTEyMTAvdGhlTGFiL25leHRPbmUvY29tcG9uZW50cy9NeUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdzdHlsZWQtY29tcG9uZW50cyc7XG5cbmNvbnN0IFBhZ2VMYXlvdXQgPSBzdHlsZWQuZGl2YFxuICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XG4gICAgd2lkdGg6IDE1OTZweDtcbiAgICB3aWR0aDogY2FsYygxMDB2dyAtIDgwcHgpO1xuICAgIHBhZGRpbmc6IDQwcHg7XG5gO1xuXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXG4gICAgPFBhZ2VMYXlvdXQ+XG4gICAgICAgIDxIZWFkZXIgLz5cbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keSxcbiAgICAgICAgICAgIGh0bWwge1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvUGFnZUxheW91dD5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDtcbiJdfQ== */\n/*@ sourceURL=/Users/stefka1210/theLab/nextOne/components/MyLayout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -5562,18 +5566,6 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 
 module.exports = hoistNonReactStatics;
 
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/polyfills/fetch/index.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/next/dist/build/polyfills/fetch/index.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* globals self */var fetch=self.fetch.bind(self);module.exports=fetch;module.exports.default=module.exports;
 
 /***/ }),
 
@@ -13594,8 +13586,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/SeasonSchedule-20192020 */ "./data/SeasonSchedule-20192020.json", 1);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
 var _jsxFileName = "/Users/stefka1210/theLab/nextOne/pages/schedules.js";
@@ -13604,7 +13595,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
- // const SeasonSchedules = [
+ // import fetch from 'isomorphic-unfetch';
+// const SeasonSchedules = [
 //     {id: 2019020001, est: '20191002 19:00:00', a: 'OTT', h: 'TOR'},
 //     {id: 2019020002, est: '20191002 20:00:00', a: 'WSH', h: 'STL'},
 //     {id: 2019020003, est: '20191002 22:00:00', a: 'VAN', h: 'EDM'},
@@ -13613,58 +13605,84 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 //     {id: 2019020036, est: '20191008 19:00:00', a: 'CAR', h: 'FLA'}
 // ];
 
+var MatchList = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+  displayName: "schedules__MatchList",
+  componentId: "sc-1f0vohs-0"
+})(["display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:20px;"]);
+var Match = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+  displayName: "schedules__Match",
+  componentId: "sc-1f0vohs-1"
+})(["width:480px;background:#ccc;height:240px;display:flex;align-items:center;justify-content:center;"]);
+var ATag = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].a.withConfig({
+  displayName: "schedules__ATag",
+  componentId: "sc-1f0vohs-2"
+})(["display:flex;align-items:center;text-transform:none;"]);
+var TeamName = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+  displayName: "schedules__TeamName",
+  componentId: "sc-1f0vohs-3"
+})(["font-size:2rem;font-weight:700;"]);
+var Meta = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+  displayName: "schedules__Meta",
+  componentId: "sc-1f0vohs-4"
+})(["display:flex;font-size:1rem;padding:0px 30px;align-items:center;"]);
+
 var Schedules = function Schedules(props) {
-  // console.log('Hier Props >>>>>>', props);
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 49
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 50
     },
     __self: this
-  }, "NHL Schedules"), __jsx("ul", {
+  }, "NHL Schedules"), __jsx(MatchList, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 51
     },
     __self: this
   }, props.matches.map(function (match) {
-    return __jsx("li", {
+    return __jsx(Match, {
       key: match.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 53
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      href: "/p/[id]",
-      as: "/p/".concat(match.id),
+      href: "/match/[id]",
+      as: "/match/".concat(match.id),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 54
       },
       __self: this
-    }, __jsx("a", {
+    }, __jsx(ATag, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 55
       },
       __self: this
-    }, __jsx("div", {
+    }, __jsx(TeamName, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 56
       },
       __self: this
-    }, match.a), __jsx("div", {
+    }, match.a), __jsx(Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 57
+      },
+      __self: this
+    }, "@"), __jsx(TeamName, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
       },
       __self: this
     }, match.h))));
@@ -13678,15 +13696,16 @@ Schedules.getInitialProps = function _callee() {
       switch (_context.prev = _context.next) {
         case 0:
           data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4__;
-          searchDate = '20200212';
+          searchDate = '20200213';
           matchesOnDate = _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_1___default()(data).filter(function (entry) {
             return entry.est.indexOf(searchDate) > -1;
           });
+          console.log('matchesOnDate:' + matchesOnDate[0].a);
           return _context.abrupt("return", {
             matches: matchesOnDate
           });
 
-        case 4:
+        case 5:
         case "end":
           return _context.stop();
       }

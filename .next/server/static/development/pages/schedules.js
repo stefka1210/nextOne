@@ -106,60 +106,65 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/stefka1210/theLab/nextOne/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const linkStyle = {
-  marginRight: 15
-};
 
-const Header = () => __jsx("div", {
+const ATag = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.a.withConfig({
+  displayName: "Header__ATag",
+  componentId: "sc-15ikbb6-0"
+})(["margin-right:60px;cursor:pointer;"]);
+const HeaderContainer = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header.withConfig({
+  displayName: "Header__HeaderContainer",
+  componentId: "sc-15ikbb6-1"
+})(["padding:0px;"]);
+
+const Header = () => __jsx(HeaderContainer, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 14
   },
   __self: undefined
-}, __jsx("a", {
-  style: linkStyle,
+}, __jsx(ATag, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 15
   },
   __self: undefined
 }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/schedules",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 17
   },
   __self: undefined
-}, __jsx("a", {
-  style: linkStyle,
+}, __jsx(ATag, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 18
   },
   __self: undefined
 }, "Schedules")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 23
   },
   __self: undefined
-}, __jsx("a", {
-  style: linkStyle,
+}, __jsx(ATag, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 24
   },
   __self: undefined
 }, "About")));
@@ -193,24 +198,24 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 const PageLayout = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "MyLayout__PageLayout",
   componentId: "sc-1faz02d-0"
-})(["background:#f2f2f2;font-family:'Roboto Condensed',sans-serif;width:640px;"]);
+})(["font-family:'Roboto Condensed',sans-serif;width:1596px;width:calc(100vw - 80px);padding:40px;"]);
 
 const Layout = props => __jsx(PageLayout, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "3471796291",
+}, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
   __self: undefined
-}, "body,html{margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:#f2f2f2;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdGVma2ExMjEwL3RoZUxhYi9uZXh0T25lL2NvbXBvbmVudHMvTXlMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYTJCLEFBSTBCLFNBQ0MsVUFDRywwRUFDTSw2RkFDSSxtR0FDSixtQkFDdkIiLCJmaWxlIjoiL1VzZXJzL3N0ZWZrYTEyMTAvdGhlTGFiL25leHRPbmUvY29tcG9uZW50cy9NeUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdzdHlsZWQtY29tcG9uZW50cyc7XG5cbmNvbnN0IFBhZ2VMYXlvdXQgPSBzdHlsZWQuZGl2YFxuICAgIGJhY2tncm91bmQ6ICNmMmYyZjI7XG4gICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gQ29uZGVuc2VkJywgc2Fucy1zZXJpZjtcbiAgICB3aWR0aDogNjQwcHg7XG5gO1xuXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXG4gICAgPFBhZ2VMYXlvdXQ+XG4gICAgICAgIDxIZWFkZXIgLz5cbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keSxcbiAgICAgICAgICAgIGh0bWwge1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZjJmMmYyO1xuICAgICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgPC9QYWdlTGF5b3V0PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/stefka1210/theLab/nextOne/components/MyLayout.js */"));
+}), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "4294675624",
+  __self: undefined
+}, "body,html{margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdGVma2ExMjEwL3RoZUxhYi9uZXh0T25lL2NvbXBvbmVudHMvTXlMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYzJCLEFBSTBCLFNBQ0MsVUFDRywwRUFDTSw2RkFDSSxtR0FDTixpQkFDckIiLCJmaWxlIjoiL1VzZXJzL3N0ZWZrYTEyMTAvdGhlTGFiL25leHRPbmUvY29tcG9uZW50cy9NeUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdzdHlsZWQtY29tcG9uZW50cyc7XG5cbmNvbnN0IFBhZ2VMYXlvdXQgPSBzdHlsZWQuZGl2YFxuICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIENvbmRlbnNlZCcsIHNhbnMtc2VyaWY7XG4gICAgd2lkdGg6IDE1OTZweDtcbiAgICB3aWR0aDogY2FsYygxMDB2dyAtIDgwcHgpO1xuICAgIHBhZGRpbmc6IDQwcHg7XG5gO1xuXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXG4gICAgPFBhZ2VMYXlvdXQ+XG4gICAgICAgIDxIZWFkZXIgLz5cbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keSxcbiAgICAgICAgICAgIGh0bWwge1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvUGFnZUxheW91dD5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDtcbiJdfQ== */\n/*@ sourceURL=/Users/stefka1210/theLab/nextOne/components/MyLayout.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -1914,15 +1919,16 @@ __webpack_require__.r(__webpack_exports__);
 var _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/SeasonSchedule-20192020 */ "./data/SeasonSchedule-20192020.json", 1);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/stefka1210/theLab/nextOne/pages/schedules.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // const SeasonSchedules = [
+ // import fetch from 'isomorphic-unfetch';
+// const SeasonSchedules = [
 //     {id: 2019020001, est: '20191002 19:00:00', a: 'OTT', h: 'TOR'},
 //     {id: 2019020002, est: '20191002 20:00:00', a: 'WSH', h: 'STL'},
 //     {id: 2019020003, est: '20191002 22:00:00', a: 'VAN', h: 'EDM'},
@@ -1931,57 +1937,83 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 //     {id: 2019020036, est: '20191008 19:00:00', a: 'CAR', h: 'FLA'}
 // ];
 
+const MatchList = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "schedules__MatchList",
+  componentId: "sc-1f0vohs-0"
+})(["display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:20px;"]);
+const Match = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "schedules__Match",
+  componentId: "sc-1f0vohs-1"
+})(["width:480px;background:#ccc;height:240px;display:flex;align-items:center;justify-content:center;"]);
+const ATag = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.a.withConfig({
+  displayName: "schedules__ATag",
+  componentId: "sc-1f0vohs-2"
+})(["display:flex;align-items:center;text-transform:none;"]);
+const TeamName = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "schedules__TeamName",
+  componentId: "sc-1f0vohs-3"
+})(["font-size:2rem;font-weight:700;"]);
+const Meta = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
+  displayName: "schedules__Meta",
+  componentId: "sc-1f0vohs-4"
+})(["display:flex;font-size:1rem;padding:0px 30px;align-items:center;"]);
+
 const Schedules = props => {
-  // console.log('Hier Props >>>>>>', props);
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 49
     },
     __self: undefined
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 50
     },
     __self: undefined
-  }, "NHL Schedules"), __jsx("ul", {
+  }, "NHL Schedules"), __jsx(MatchList, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 51
     },
     __self: undefined
-  }, props.matches.map(match => __jsx("li", {
+  }, props.matches.map(match => __jsx(Match, {
     key: match.id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 53
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/p/[id]",
-    as: `/p/${match.id}`,
+    href: "/match/[id]",
+    as: `/match/${match.id}`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 54
     },
     __self: undefined
-  }, __jsx("a", {
+  }, __jsx(ATag, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 55
     },
     __self: undefined
-  }, __jsx("div", {
+  }, __jsx(TeamName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 56
     },
     __self: undefined
-  }, match.a), __jsx("div", {
+  }, match.a), __jsx(Meta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 57
+    },
+    __self: undefined
+  }, "@"), __jsx(TeamName, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
     },
     __self: undefined
   }, match.h)))))));
@@ -1989,10 +2021,11 @@ const Schedules = props => {
 
 Schedules.getInitialProps = async function () {
   const data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_2__;
-  const searchDate = '20200212';
+  const searchDate = '20200213';
   const matchesOnDate = Object.values(data).filter(function (entry) {
     return entry.est.indexOf(searchDate) > -1;
   });
+  console.log('matchesOnDate:' + matchesOnDate[0].a);
   return {
     matches: matchesOnDate
   };
@@ -2066,17 +2099,6 @@ module.exports = require("core-js/library/fn/symbol/iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
-
-/***/ }),
-
-/***/ "isomorphic-unfetch":
-/*!*************************************!*\
-  !*** external "isomorphic-unfetch" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 

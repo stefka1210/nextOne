@@ -1,24 +1,29 @@
 import Link from 'next/link';
+import styled from 'styled-components';
 
-const linkStyle = {
-    marginRight: 15
-};
+const ATag = styled.a`
+    margin-right: 60px;
+    cursor: pointer;
+`;
+const HeaderContainer = styled.header`
+    padding: 0px;
+`;
 
 const Header = () => (
-    <div>
+    <HeaderContainer>
         <Link href="/">
-            <a style={linkStyle}>Home</a>
+            <ATag>Home</ATag>
         </Link>
         <Link href="/schedules">
-            <a style={linkStyle}>Schedules</a>
+            <ATag>Schedules</ATag>
         </Link>
         {/* <Link href="/today">
             <a style={linkStyle}>Today</a>
         </Link> */}
         <Link href="/about">
-            <a style={linkStyle}>About</a>
+            <ATag>About</ATag>
         </Link>
-    </div>
+    </HeaderContainer>
 );
 
 export default Header;
