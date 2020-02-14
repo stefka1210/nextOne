@@ -1,7 +1,9 @@
 import Layout from '../components/MyLayout';
 import SeasonSchedules from '../data/SeasonSchedule-20192020';
+import Franchises from '../data/franchise';
 import Link from 'next/link';
 import styled from 'styled-components';
+// import franLogo from '/logos/1_NJD.svg';
 // import fetch from 'isomorphic-unfetch';
 
 // const SeasonSchedules = [
@@ -15,23 +17,51 @@ import styled from 'styled-components';
 
 const MatchList = styled.div`
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); */
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 20px;
 `;
 const Match = styled.div`
-    width: 480px;
     background: #ccc;
 
     height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    &:hover {
+        background: #414141;
+        color: white;
+    }
 `;
-const ATag = styled.a`
+const ATag = styled.div`
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-transform: none;
+
+    width: 100%;
+    height: 100%;
+`;
+
+const FranLogo = styled.img`
+    position: absolute;
+    :first-child {
+        left: 0px;
+    }
+    :last-child {
+        right: 0px;
+    }
+
+    /* width: 50%; */
+    height: 20%;
+    z-index: 11;
+    /* opacity: 0.5; */
+    svg {
+        /* width: 100%; */
+        height: 100%;
+    }
 `;
 const TeamName = styled.div`
     font-size: 2rem;
@@ -44,6 +74,17 @@ const Meta = styled.div`
     align-items: center;
 `;
 
+// const myTeam = Franchises.find(x => x.shortname === 'phi');
+
+const getTeamLogo = short => {
+    const teamId = Franchises.find(x => x.shortname === `${short}`).id;
+    const shortUpped = short.toUpperCase();
+    const logoFileName = `${teamId}_${shortUpped}.svg`;
+    return logoFileName;
+};
+
+console.log('getTeamLogo:', getTeamLogo('buf'));
+
 const Schedules = props => {
     return (
         <Layout>
@@ -53,9 +94,11 @@ const Schedules = props => {
                     <Match key={match.id}>
                         <Link href="/match/[id]" as={`/match/${match.id}`}>
                             <ATag>
+                                <FranLogo src={`/logos/${getTeamLogo('ott')}`} alt="img-franlogo" />
                                 <TeamName>{match.a}</TeamName>
                                 <Meta>@</Meta>
                                 <TeamName>{match.h}</TeamName>
+                                <FranLogo src="/logos/5_PIT.svg" alt="img-franlogo" />
                             </ATag>
                         </Link>
                     </Match>
@@ -66,16 +109,21 @@ const Schedules = props => {
 };
 Schedules.getInitialProps = async function() {
     const data = SeasonSchedules;
-    const searchDate = '20200213';
+    // const searchDate = '20200212';
 
-    const matchesOnDate = Object.values(data).filter(function(entry) {
+    const date = new Date().toISOString();
+    const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
+
+    const matchesOnDate = Object.values(data).filter(entry => {
         return entry.est.indexOf(searchDate) > -1;
     });
 
-    console.log('matchesOnDate:' + matchesOnDate[0].a);
+    // console.log('matchesOnDate:' + matchesOnDate[0].a);
 
     return {
         matches: matchesOnDate
     };
+
+    // {"id": 2019020016, "est": "20191004 14:00:00", "a": "CHI", "h": "PHI"}
 };
 export default Schedules;

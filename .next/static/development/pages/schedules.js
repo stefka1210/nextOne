@@ -141,6 +141,17 @@ module.exports = JSON.parse("[{\"id\":2019020001,\"est\":\"20191002 19:00:00\",\
 
 /***/ }),
 
+/***/ "./data/franchise.json":
+/*!*****************************!*\
+  !*** ./data/franchise.json ***!
+  \*****************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"id\":1,\"shortname\":\"njd\",\"fullname\":\"New Jersey Devils\",\"placename\":\"New Jersey\",\"nickname\":\"Devils\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":2,\"shortname\":\"nyi\",\"fullname\":\"New York Islanders\",\"placename\":\"New York\",\"nickname\":\"Islanders\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":3,\"shortname\":\"nyr\",\"fullname\":\"New York Rangers\",\"placename\":\"New York\",\"nickname\":\"Rangers\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":4,\"shortname\":\"phi\",\"fullname\":\"Philadelphia Flyers\",\"placename\":\"Philadelphia\",\"nickname\":\"Flyers\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":5,\"shortname\":\"pit\",\"fullname\":\"Pittsburgh Penguins\",\"placename\":\"Pittsburgh\",\"nickname\":\"Penguins\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":6,\"shortname\":\"bos\",\"fullname\":\"Boston Bruins\",\"placename\":\"Boston\",\"nickname\":\"Bruins\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":7,\"shortname\":\"buf\",\"fullname\":\"Buffalo Sabres\",\"placename\":\"Buffalo\",\"nickname\":\"Sabres\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":8,\"shortname\":\"mtl\",\"fullname\":\"Montreal Canadians\",\"placename\":\"Montreal\",\"nickname\":\"Canadians\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":9,\"shortname\":\"ott\",\"fullname\":\"Ottawa Senators\",\"placename\":\"Ottawa\",\"nickname\":\"Senators\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":10,\"shortname\":\"tor\",\"fullname\":\"Toronto Mapple Leafs\",\"placename\":\"Toronto\",\"nickname\":\"Mapple Leafs\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":12,\"shortname\":\"car\",\"fullname\":\"Carolina Hurricanes\",\"placename\":\"Carolina\",\"nickname\":\"Hurricanes\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":13,\"shortname\":\"fla\",\"fullname\":\"Florida Panthers\",\"placename\":\"Florida\",\"nickname\":\"Panthers\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":14,\"shortname\":\"tpl\",\"fullname\":\"Tampa Bay Lightning\",\"placename\":\"Tampa Bay\",\"nickname\":\"Lightning\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":15,\"shortname\":\"wsh\",\"fullname\":\"Washington Capitols\",\"placename\":\"Washington\",\"nickname\":\"Capitols\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":16,\"shortname\":\"chi\",\"fullname\":\"Chicago Blackhawks\",\"placename\":\"Chicago\",\"nickname\":\"Blackhawks\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":17,\"shortname\":\"det\",\"fullname\":\"Detroit Red Wings\",\"placename\":\"Detroit\",\"nickname\":\"Red Wings\",\"conference\":\"Eastern\",\"division\":\"Atlantic\"},{\"id\":18,\"shortname\":\"nsh\",\"fullname\":\"Nashville Predators\",\"placename\":\"Nashville\",\"nickname\":\"Predators\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":19,\"shortname\":\"stl\",\"fullname\":\"St. Louis Blues\",\"placename\":\"St. Louis\",\"nickname\":\"Blues\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":20,\"shortname\":\"cgy\",\"fullname\":\"Calgary Flames\",\"placename\":\"Calgary\",\"nickname\":\"Flames\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":21,\"shortname\":\"col\",\"fullname\":\"Colorado Avalanche\",\"placename\":\"Colorado\",\"nickname\":\"Avalanche\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":22,\"shortname\":\"edm\",\"fullname\":\"Edmonton Oilers\",\"placename\":\"Edmonton\",\"nickname\":\"Oilers\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":23,\"shortname\":\"van\",\"fullname\":\"Vancouver Canucks\",\"placename\":\"Vancouver\",\"nickname\":\"Canucks\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":24,\"shortname\":\"ana\",\"fullname\":\"Anaheim Ducks\",\"placename\":\"Anaheim\",\"nickname\":\"Ducks\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":25,\"shortname\":\"dal\",\"fullname\":\"Dallas Stars\",\"placename\":\"Dallas\",\"nickname\":\"Stars\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":26,\"shortname\":\"lak\",\"fullname\":\"Los Angeles Kings\",\"placename\":\"Los Angeles\",\"nickname\":\"Kings\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":28,\"shortname\":\"sjs\",\"fullname\":\"San Jose Sharks\",\"placename\":\"San Jose\",\"nickname\":\"Sharks\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":29,\"shortname\":\"cbj\",\"fullname\":\"Columbus Blue Jackets\",\"placename\":\"Columbus\",\"nickname\":\"Blue Jackets\",\"conference\":\"Eastern\",\"division\":\"Metropolitan\"},{\"id\":30,\"shortname\":\"min\",\"fullname\":\"Minnesota Wild\",\"placename\":\"Minnesota\",\"nickname\":\"Wild\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":52,\"shortname\":\"wpg\",\"fullname\":\"Winnipeg Jets\",\"placename\":\"Winnipeg\",\"nickname\":\"Jets\",\"conference\":\"Western\",\"division\":\"Central\"},{\"id\":53,\"shortname\":\"ari\",\"fullname\":\"Arizona Coyotes\",\"placename\":\"Arizona\",\"nickname\":\"Coyotes\",\"conference\":\"Western\",\"division\":\"Pacific\"},{\"id\":54,\"shortname\":\"vkg\",\"fullname\":\"Vegas Golden Knights\",\"placename\":\"Vegas\",\"nickname\":\"Golden Knights\",\"conference\":\"Western\",\"division\":\"Pacific\"}]");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js ***!
@@ -13584,9 +13595,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../data/SeasonSchedule-20192020 */ "./data/SeasonSchedule-20192020.json");
 var _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/SeasonSchedule-20192020 */ "./data/SeasonSchedule-20192020.json", 1);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _data_franchise__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/franchise */ "./data/franchise.json");
+var _data_franchise__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/franchise */ "./data/franchise.json", 1);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
 var _jsxFileName = "/Users/stefka1210/theLab/nextOne/pages/schedules.js";
@@ -13595,7 +13608,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
- // import fetch from 'isomorphic-unfetch';
+
+ // import franLogo from '/logos/1_NJD.svg';
+// import fetch from 'isomorphic-unfetch';
 // const SeasonSchedules = [
 //     {id: 2019020001, est: '20191002 19:00:00', a: 'OTT', h: 'TOR'},
 //     {id: 2019020002, est: '20191002 20:00:00', a: 'WSH', h: 'STL'},
@@ -13605,44 +13620,61 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 //     {id: 2019020036, est: '20191008 19:00:00', a: 'CAR', h: 'FLA'}
 // ];
 
-var MatchList = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+var MatchList = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "schedules__MatchList",
   componentId: "sc-1f0vohs-0"
-})(["display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:20px;"]);
-var Match = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
+})(["display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:20px;"]);
+var Match = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "schedules__Match",
   componentId: "sc-1f0vohs-1"
-})(["width:480px;background:#ccc;height:240px;display:flex;align-items:center;justify-content:center;"]);
-var ATag = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].a.withConfig({
+})(["background:#ccc;height:240px;display:flex;align-items:center;justify-content:center;cursor:pointer;&:hover{background:#414141;color:white;}"]);
+var ATag = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "schedules__ATag",
   componentId: "sc-1f0vohs-2"
-})(["display:flex;align-items:center;text-transform:none;"]);
-var TeamName = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
-  displayName: "schedules__TeamName",
+})(["position:relative;display:flex;align-items:center;justify-content:center;text-transform:none;width:100%;height:100%;"]);
+var FranLogo = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].img.withConfig({
+  displayName: "schedules__FranLogo",
   componentId: "sc-1f0vohs-3"
-})(["font-size:2rem;font-weight:700;"]);
-var Meta = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div.withConfig({
-  displayName: "schedules__Meta",
+})(["position:absolute;:first-child{left:0px;}:last-child{right:0px;}height:20%;z-index:11;svg{height:100%;}"]);
+var TeamName = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
+  displayName: "schedules__TeamName",
   componentId: "sc-1f0vohs-4"
-})(["display:flex;font-size:1rem;padding:0px 30px;align-items:center;"]);
+})(["font-size:2rem;font-weight:700;"]);
+var Meta = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
+  displayName: "schedules__Meta",
+  componentId: "sc-1f0vohs-5"
+})(["display:flex;font-size:1rem;padding:0px 30px;align-items:center;"]); // const myTeam = Franchises.find(x => x.shortname === 'phi');
+
+var getTeamLogo = function getTeamLogo(_short) {
+  var teamId = _data_franchise__WEBPACK_IMPORTED_MODULE_5__.find(function (x) {
+    return x.shortname === "".concat(_short);
+  }).id;
+
+  var shortUpped = _short.toUpperCase();
+
+  var logoFileName = "".concat(teamId, "_").concat(shortUpped, ".svg");
+  return logoFileName;
+};
+
+console.log('getTeamLogo:', getTeamLogo('buf'));
 
 var Schedules = function Schedules(props) {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 90
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 91
     },
     __self: this
   }, "NHL Schedules"), __jsx(MatchList, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 92
     },
     __self: this
   }, props.matches.map(function (match) {
@@ -13650,57 +13682,75 @@ var Schedules = function Schedules(props) {
       key: match.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 94
       },
       __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
       href: "/match/[id]",
       as: "/match/".concat(match.id),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 95
       },
       __self: this
     }, __jsx(ATag, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 96
       },
       __self: this
-    }, __jsx(TeamName, {
+    }, __jsx(FranLogo, {
+      src: "/logos/".concat(getTeamLogo('ott')),
+      alt: "img-franlogo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 97
+      },
+      __self: this
+    }), __jsx(TeamName, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 98
       },
       __self: this
     }, match.a), __jsx(Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 99
       },
       __self: this
     }, "@"), __jsx(TeamName, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 100
       },
       __self: this
-    }, match.h))));
+    }, match.h), __jsx(FranLogo, {
+      src: "/logos/5_PIT.svg",
+      alt: "img-franlogo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101
+      },
+      __self: this
+    }))));
   })));
 };
 
 Schedules.getInitialProps = function _callee() {
-  var data, searchDate, matchesOnDate;
+  var data, date, searchDate, matchesOnDate;
   return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4__;
-          searchDate = '20200213';
+          data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4__; // const searchDate = '20200212';
+
+          date = new Date().toISOString();
+          searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
           matchesOnDate = _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_1___default()(data).filter(function (entry) {
             return entry.est.indexOf(searchDate) > -1;
-          });
-          console.log('matchesOnDate:' + matchesOnDate[0].a);
+          }); // console.log('matchesOnDate:' + matchesOnDate[0].a);
+
           return _context.abrupt("return", {
             matches: matchesOnDate
           });
@@ -13717,7 +13767,7 @@ Schedules.getInitialProps = function _callee() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fschedules&absolutePagePath=%2FUsers%2Fstefka1210%2FtheLab%2FnextOne%2Fpages%2Fschedules.js ***!
   \*****************************************************************************************************************************************/
@@ -13740,5 +13790,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=schedules.js.map
