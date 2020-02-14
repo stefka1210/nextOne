@@ -21,30 +21,6 @@ const MatchList = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 20px;
 `;
-const Match = styled.div`
-    background: #ccc;
-
-    height: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    &:hover {
-        background: #414141;
-        color: white;
-    }
-`;
-const ATag = styled.div`
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: none;
-
-    width: 100%;
-    height: 100%;
-`;
-
 const FranLogo = styled.img`
     position: absolute;
     :first-child {
@@ -54,11 +30,40 @@ const FranLogo = styled.img`
         right: 0px;
     }
     height: 33%;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
     z-index: 11;
     svg {
         height: 100%;
     }
 `;
+const Match = styled.div`
+    background: #ccc;
+
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+        background: #9a9a9a;
+        color: white;
+        ${FranLogo} {
+            transform: scale(1.2);
+            transition: transform 300ms ease-in-out;
+        }
+    }
+`;
+const ATag = styled.div`
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+    width: 100%;
+    height: 100%;
+`;
+
 const TeamName = styled.div`
     font-size: 2rem;
     font-weight: 700;

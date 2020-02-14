@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1956,18 +1956,18 @@ const MatchList = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.w
   displayName: "schedules__MatchList",
   componentId: "sc-1f0vohs-0"
 })(["display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:20px;"]);
-const Match = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
-  displayName: "schedules__Match",
-  componentId: "sc-1f0vohs-1"
-})(["background:#ccc;height:240px;display:flex;align-items:center;justify-content:center;cursor:pointer;&:hover{background:#414141;color:white;}"]);
-const ATag = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
-  displayName: "schedules__ATag",
-  componentId: "sc-1f0vohs-2"
-})(["position:relative;display:flex;align-items:center;justify-content:center;text-transform:none;width:100%;height:100%;"]);
 const FranLogo = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.img.withConfig({
   displayName: "schedules__FranLogo",
+  componentId: "sc-1f0vohs-1"
+})(["position:absolute;:first-child{left:0px;}:last-child{right:0px;}height:33%;transform:scale(1);transition:transform 300ms ease-in-out;z-index:11;svg{height:100%;}"]);
+const Match = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
+  displayName: "schedules__Match",
+  componentId: "sc-1f0vohs-2"
+})(["background:#ccc;height:240px;display:flex;align-items:center;justify-content:center;cursor:pointer;&:hover{background:#9a9a9a;color:white;", "{transform:scale(1.2);transition:transform 300ms ease-in-out;}}"], FranLogo);
+const ATag = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
+  displayName: "schedules__ATag",
   componentId: "sc-1f0vohs-3"
-})(["position:absolute;:first-child{left:0px;}:last-child{right:0px;}height:33%;z-index:11;svg{height:100%;}"]);
+})(["position:relative;display:flex;align-items:center;justify-content:center;text-transform:none;width:100%;height:100%;"]);
 const TeamName = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
   displayName: "schedules__TeamName",
   componentId: "sc-1f0vohs-4"
@@ -1990,26 +1990,26 @@ const Schedules = props => {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 89
     },
     __self: undefined
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 90
     },
     __self: undefined
   }, "NHL Schedules"), __jsx(MatchList, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 91
     },
     __self: undefined
   }, props.matches.map(match => __jsx(Match, {
     key: match.id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 93
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -2017,13 +2017,13 @@ const Schedules = props => {
     as: `/match/${match.id}`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 94
     },
     __self: undefined
   }, __jsx(ATag, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 95
     },
     __self: undefined
   }, __jsx(FranLogo, {
@@ -2031,25 +2031,25 @@ const Schedules = props => {
     alt: "img-franlogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 96
     },
     __self: undefined
   }), __jsx(TeamName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 97
     },
     __self: undefined
   }, match.a), __jsx(Meta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 98
     },
     __self: undefined
   }, "@"), __jsx(TeamName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 99
     },
     __self: undefined
   }, match.h), __jsx(FranLogo, {
@@ -2057,7 +2057,7 @@ const Schedules = props => {
     alt: "img-franlogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 100
     },
     __self: undefined
   })))))));
@@ -2081,7 +2081,7 @@ Schedules.getInitialProps = async function () {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!**********************************!*\
   !*** multi ./pages/schedules.js ***!
   \**********************************/
