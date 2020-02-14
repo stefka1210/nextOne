@@ -1,6 +1,7 @@
 import Layout from '../components/MyLayout';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
+import Franchises from '../data/franchise';
 import styled from 'styled-components';
 
 const TeamList = styled.div`
@@ -65,8 +66,9 @@ const Index = props => {
 };
 Index.getInitialProps = async function() {
     // const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
-    const res = await fetch('https://statsapi.web.nhl.com/api/v1/teams');
-    const data = await res.json();
+    // const res = await fetch('https://statsapi.web.nhl.com/api/v1/teams');
+    // const data = await res.json();
+    const data = Franchises;
 
     console.log(`team data fetched. Count: ${data.teams}`);
 

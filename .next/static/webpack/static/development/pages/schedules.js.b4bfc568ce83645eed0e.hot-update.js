@@ -58,7 +58,7 @@ var ATag = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withCon
 var FranLogo = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].img.withConfig({
   displayName: "schedules__FranLogo",
   componentId: "sc-1f0vohs-3"
-})(["position:absolute;:first-child{left:0px;}:last-child{right:0px;}height:20%;z-index:11;svg{height:100%;}"]);
+})(["position:absolute;:first-child{left:0px;}:last-child{right:0px;}height:40%;z-index:11;svg{height:100%;}"]);
 var TeamName = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "schedules__TeamName",
   componentId: "sc-1f0vohs-4"
@@ -69,8 +69,8 @@ var Meta = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withCon
 })(["display:flex;font-size:1rem;padding:0px 30px;align-items:center;"]); // const myTeam = Franchises.find(x => x.shortname === 'phi');
 
 var getTeamLogo = function getTeamLogo(_short) {
-  var teamId = _data_franchise__WEBPACK_IMPORTED_MODULE_5__.find(function (x) {
-    return x.shortname === "".concat(_short);
+  var teamId = _data_franchise__WEBPACK_IMPORTED_MODULE_5__.teams.find(function (x) {
+    return x.abbreviation === "".concat(_short);
   }).id;
 
   var shortUpped = _short.toUpperCase();
@@ -79,25 +79,25 @@ var getTeamLogo = function getTeamLogo(_short) {
   return logoFileName;
 };
 
-console.log('getTeamLogo:', getTeamLogo('buf'));
+console.log('getTeamLogo:', getTeamLogo('BUF'));
 
 var Schedules = function Schedules(props) {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 86
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 87
     },
     __self: this
   }, "NHL Schedules"), __jsx(MatchList, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 88
     },
     __self: this
   }, props.matches.map(function (match) {
@@ -105,7 +105,7 @@ var Schedules = function Schedules(props) {
       key: match.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 90
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -113,47 +113,47 @@ var Schedules = function Schedules(props) {
       as: "/match/".concat(match.id),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95
+        lineNumber: 91
       },
       __self: this
     }, __jsx(ATag, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96
+        lineNumber: 92
       },
       __self: this
     }, __jsx(FranLogo, {
-      src: "/logos/".concat(getTeamLogo('ott')),
+      src: "/logos/".concat(getTeamLogo(match.a)),
       alt: "img-franlogo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 97
+        lineNumber: 93
       },
       __self: this
     }), __jsx(TeamName, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 98
+        lineNumber: 94
       },
       __self: this
     }, match.a), __jsx(Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 99
+        lineNumber: 95
       },
       __self: this
     }, "@"), __jsx(TeamName, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 100
+        lineNumber: 96
       },
       __self: this
     }, match.h), __jsx(FranLogo, {
-      src: "/logos/5_PIT.svg",
+      src: "/logos/".concat(getTeamLogo(match.h)),
       alt: "img-franlogo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101
+        lineNumber: 97
       },
       __self: this
     }))));
@@ -191,4 +191,4 @@ Schedules.getInitialProps = function _callee() {
 /***/ })
 
 })
-//# sourceMappingURL=schedules.js.907d462a79c3675244e1.hot-update.js.map
+//# sourceMappingURL=schedules.js.b4bfc568ce83645eed0e.hot-update.js.map

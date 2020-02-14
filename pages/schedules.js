@@ -53,13 +53,9 @@ const FranLogo = styled.img`
     :last-child {
         right: 0px;
     }
-
-    /* width: 50%; */
-    height: 20%;
+    height: 33%;
     z-index: 11;
-    /* opacity: 0.5; */
     svg {
-        /* width: 100%; */
         height: 100%;
     }
 `;
@@ -74,16 +70,14 @@ const Meta = styled.div`
     align-items: center;
 `;
 
-// const myTeam = Franchises.find(x => x.shortname === 'phi');
-
 const getTeamLogo = short => {
-    const teamId = Franchises.find(x => x.shortname === `${short}`).id;
+    const teamId = Franchises.teams.find(x => x.abbreviation === `${short}`).id;
     const shortUpped = short.toUpperCase();
     const logoFileName = `${teamId}_${shortUpped}.svg`;
     return logoFileName;
 };
 
-console.log('getTeamLogo:', getTeamLogo('buf'));
+console.log('getTeamLogo:', getTeamLogo('BUF'));
 
 const Schedules = props => {
     return (
@@ -94,11 +88,11 @@ const Schedules = props => {
                     <Match key={match.id}>
                         <Link href="/match/[id]" as={`/match/${match.id}`}>
                             <ATag>
-                                <FranLogo src={`/logos/${getTeamLogo('ott')}`} alt="img-franlogo" />
+                                <FranLogo src={`/logos/${getTeamLogo(match.a)}`} alt="img-franlogo" />
                                 <TeamName>{match.a}</TeamName>
                                 <Meta>@</Meta>
                                 <TeamName>{match.h}</TeamName>
-                                <FranLogo src="/logos/5_PIT.svg" alt="img-franlogo" />
+                                <FranLogo src={`/logos/${getTeamLogo(match.h)}`} alt="img-franlogo" />
                             </ATag>
                         </Link>
                     </Match>
