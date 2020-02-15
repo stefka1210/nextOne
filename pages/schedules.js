@@ -75,6 +75,7 @@ const Schedules = props => {
     return (
         <Layout>
             <h1>NHL Schedules</h1>
+            <p>{props.searchDate}</p>
             <MatchList>
                 {props.matches.map(match => (
                     <Match key={match.id}>
@@ -111,19 +112,12 @@ Schedules.getInitialProps = async function() {
     const searchDate = year + month + day;
     console.log('easternDate:::', searchDate);
 
-    /// END ---------------
-
-    //ToDo: Eastern Standard Time
-    // const date = new Date().toISOString();
-
-    // const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
-    // console.log('searchdate:', searchDate);
-
     const matchesOnDate = Object.values(data).filter(entry => {
         return entry.est.indexOf(searchDate) > -1;
     });
     return {
-        matches: matchesOnDate
+        matches: matchesOnDate,
+        searchDate: searchDate
     };
 };
 export default Schedules;

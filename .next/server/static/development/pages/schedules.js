@@ -2140,17 +2140,23 @@ const Schedules = props => {
       lineNumber: 77
     },
     __self: undefined
-  }, "NHL Schedules"), __jsx(MatchList, {
+  }, "NHL Schedules"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78
+    },
+    __self: undefined
+  }, props.searchDate), __jsx(MatchList, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
     },
     __self: undefined
   }, props.matches.map(match => __jsx(Match, {
     key: match.id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 81
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -2159,13 +2165,13 @@ const Schedules = props => {
     passHref: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: undefined
   }, __jsx(ATag, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: undefined
   }, __jsx(FranLogo, {
@@ -2173,25 +2179,25 @@ const Schedules = props => {
     alt: "img-franlogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 84
     },
     __self: undefined
   }), __jsx(TeamName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 85
     },
     __self: undefined
   }, match.a), __jsx(Meta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 86
     },
     __self: undefined
   }, "@"), __jsx(TeamName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: undefined
   }, match.h), __jsx(FranLogo, {
@@ -2199,7 +2205,7 @@ const Schedules = props => {
     alt: "img-franlogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 88
     },
     __self: undefined
   })))))));
@@ -2221,17 +2227,13 @@ Schedules.getInitialProps = async function () {
   const month = easterndate.slice(0, 2);
   const day = easterndate.slice(3, 5);
   const searchDate = year + month + day;
-  console.log('easternDate:::', searchDate); /// END ---------------
-  //ToDo: Eastern Standard Time
-  // const date = new Date().toISOString();
-  // const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
-  // console.log('searchdate:', searchDate);
-
+  console.log('easternDate:::', searchDate);
   const matchesOnDate = Object.values(data).filter(entry => {
     return entry.est.indexOf(searchDate) > -1;
   });
   return {
-    matches: matchesOnDate
+    matches: matchesOnDate,
+    searchDate: searchDate
   };
 };
 

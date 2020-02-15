@@ -14050,10 +14050,16 @@ var Schedules = function Schedules(props) {
       lineNumber: 77
     },
     __self: this
-  }, "NHL Schedules"), __jsx(MatchList, {
+  }, "NHL Schedules"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78
+    },
+    __self: this
+  }, props.searchDate), __jsx(MatchList, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
     },
     __self: this
   }, props.matches.map(function (match) {
@@ -14061,7 +14067,7 @@ var Schedules = function Schedules(props) {
       key: match.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80
+        lineNumber: 81
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -14070,13 +14076,13 @@ var Schedules = function Schedules(props) {
       passHref: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 82
       },
       __self: this
     }, __jsx(ATag, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82
+        lineNumber: 83
       },
       __self: this
     }, __jsx(FranLogo, {
@@ -14084,25 +14090,25 @@ var Schedules = function Schedules(props) {
       alt: "img-franlogo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 84
       },
       __self: this
     }), __jsx(TeamName, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84
+        lineNumber: 85
       },
       __self: this
     }, match.a), __jsx(Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 86
       },
       __self: this
     }, "@"), __jsx(TeamName, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86
+        lineNumber: 87
       },
       __self: this
     }, match.h), __jsx(FranLogo, {
@@ -14110,7 +14116,7 @@ var Schedules = function Schedules(props) {
       alt: "img-franlogo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87
+        lineNumber: 88
       },
       __self: this
     }))));
@@ -14138,17 +14144,13 @@ Schedules.getInitialProps = function _callee() {
           month = easterndate.slice(0, 2);
           day = easterndate.slice(3, 5);
           searchDate = year + month + day;
-          console.log('easternDate:::', searchDate); /// END ---------------
-          //ToDo: Eastern Standard Time
-          // const date = new Date().toISOString();
-          // const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
-          // console.log('searchdate:', searchDate);
-
+          console.log('easternDate:::', searchDate);
           matchesOnDate = _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_1___default()(data).filter(function (entry) {
             return entry.est.indexOf(searchDate) > -1;
           });
           return _context.abrupt("return", {
-            matches: matchesOnDate
+            matches: matchesOnDate,
+            searchDate: searchDate
           });
 
         case 12:
