@@ -110,6 +110,7 @@ Schedules.getInitialProps = async function() {
     const data = SeasonSchedules;
     // const searchDate = '20200212';
 
+    //ToDo: Eastern Standard Time
     const date = new Date().toISOString();
     const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
 
