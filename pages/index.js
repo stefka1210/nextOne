@@ -1,5 +1,6 @@
 import Layout from '../components/MyLayout';
 import Link from 'next/link';
+
 import fetch from 'isomorphic-unfetch';
 import Franchises from '../data/franchise';
 import TeamColors from '../data/TeamColors';
@@ -78,6 +79,8 @@ const ATag = styled.a`
     text-align: center;
     padding: 8px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
 `;
 const TeamId = styled.div`
     font-size: 1rem;
@@ -91,7 +94,6 @@ const getTeamLogo = short => {
 };
 const getTeamColor = (teamId, colorType) => {
     const teamObj = TeamColors.find(x => x.id === teamId);
-
     if (colorType == 'second') {
         return teamObj.hexSecond;
     } else {
@@ -100,28 +102,23 @@ const getTeamColor = (teamId, colorType) => {
 };
 
 const Index = props => {
-    console.log(props);
-
     return (
         <Layout>
             <h1>NHL Teams</h1>
             <TeamList>
                 {props.teams.map(team => (
                     <Team key={team.name}>
-                        <Link href="/p/[id]" as={`/p/${team.teamName}`}>
+                        <Link href="/p/[id]" as={`/p/${team.teamName}`} passHref>
                             <ATag>
                                 <TeamId>
                                     {team.id} - {team.abbreviation}
                                 </TeamId>
-
                                 <LocName>{team.locationName}</LocName>
                                 <NickName>{team.teamName}</NickName>
-
                                 <FranLogo
                                     src={`/logos/${getTeamLogo(team.abbreviation)}`}
                                     alt={`franlogo_${team.abbreviation}`}
                                 />
-                                {/* <TeamColor teamColor={`/logos/${getTeamColor(team.id)}`} /> */}
                                 <ColorsContainer>
                                     <Color teamColor={getTeamColor(team.id, 'first')} />
                                     <Color teamColor={getTeamColor(team.id, 'second')} />
@@ -135,12 +132,9 @@ const Index = props => {
     );
 };
 Index.getInitialProps = async function() {
-    // const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
     // const res = await fetch('https://statsapi.web.nhl.com/api/v1/teams');
     // const data = await res.json();
     const data = Franchises;
-
-    console.log(`team data fetched. Count: ${data.teams}`);
 
     return {
         teams: data.teams

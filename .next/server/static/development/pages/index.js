@@ -93,6 +93,128 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Clock.js":
+/*!*****************************!*\
+  !*** ./components/Clock.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/stefka1210/theLab/nextOne/components/Clock.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Container = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Clock__Container",
+  componentId: "sc-1o7ap0w-0"
+})(["font-size:0.8rem;font-weight:700;"]);
+const Time = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Clock__Time",
+  componentId: "sc-1o7ap0w-1"
+})(["display:flex;align-items:center;justify-content:center;"]);
+const Label = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Clock__Label",
+  componentId: "sc-1o7ap0w-2"
+})(["text-align:left;font-size:0.6rem;margin-right:0.6em;"]);
+const Value = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Clock__Value",
+  componentId: "sc-1o7ap0w-3"
+})(["text-align:right;"]);
+
+class Clock extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      time: new Date()
+    };
+  }
+
+  componentDidMount() {
+    this.intervalID = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.intervalID);
+  }
+
+  tick() {
+    this.setState({
+      time: new Date()
+    });
+  }
+
+  render() {
+    const {
+      time
+    } = this.state;
+    const options = {
+      // month: '2-digit',
+      // day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit'
+    };
+    const easternOptions = options;
+    const local = new Intl.DateTimeFormat('de-DE', options).format(time);
+    easternOptions.timeZone = 'America/New_York';
+    const eastern = new Intl.DateTimeFormat('de-DE', easternOptions).format(time);
+    return __jsx(Container, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
+    }, __jsx(Time, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }, __jsx(Label, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
+    }, "LOC"), __jsx(Value, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, local)), __jsx(Time, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, __jsx(Label, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, "EST"), __jsx(Value, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, eastern)));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Clock);
+
+/***/ }),
+
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -108,66 +230,97 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Clock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Clock */ "./components/Clock.js");
 var _jsxFileName = "/Users/stefka1210/theLab/nextOne/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 const ATag = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.a.withConfig({
   displayName: "Header__ATag",
   componentId: "sc-15ikbb6-0"
-})(["margin-right:60px;cursor:pointer;"]);
+})(["text-transform:uppercase;text-decoration:none;margin-right:60px;color:#4a4a4a;font-weight:600;cursor:pointer;&:hover{color:#1a1a1a;}"]);
 const HeaderContainer = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header.withConfig({
   displayName: "Header__HeaderContainer",
   componentId: "sc-15ikbb6-1"
-})(["padding:0px;"]);
+})(["display:flex;padding:0px;"]);
+const Navigation = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+  displayName: "Header__Navigation",
+  componentId: "sc-15ikbb6-2"
+})(["display:block;flex:1 1 1px;"]);
+const TimeContainer = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+  displayName: "Header__TimeContainer",
+  componentId: "sc-15ikbb6-3"
+})(["display:block;"]);
 
 const Header = () => __jsx(HeaderContainer, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 29
+  },
+  __self: undefined
+}, __jsx(Navigation, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
+  passHref: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 31
   },
   __self: undefined
 }, __jsx(ATag, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 32
   },
   __self: undefined
 }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/schedules",
+  passHref: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 34
   },
   __self: undefined
 }, __jsx(ATag, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 35
   },
   __self: undefined
 }, "Schedules")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
+  passHref: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 37
   },
   __self: undefined
 }, __jsx(ATag, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 38
   },
   __self: undefined
-}, "About")));
+}, "About"))), __jsx(TimeContainer, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, __jsx(_components_Clock__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42
+  },
+  __self: undefined
+})));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
@@ -1976,7 +2129,7 @@ const Team = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withCo
 const ATag = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.a.withConfig({
   displayName: "pages__ATag",
   componentId: "sc-1h0jejb-7"
-})(["display:flex;flex-direction:column;align-items:center;font-weight:700;text-align:center;padding:8px;text-transform:uppercase;"]);
+})(["display:flex;flex-direction:column;align-items:center;font-weight:700;text-align:center;padding:8px;text-transform:uppercase;text-decoration:none;color:inherit;"]);
 const TeamId = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
   displayName: "pages__TeamId",
   componentId: "sc-1h0jejb-8"
@@ -2000,7 +2153,6 @@ const getTeamColor = (teamId, colorType) => {
 };
 
 const Index = props => {
-  console.log(props);
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
@@ -2029,6 +2181,7 @@ const Index = props => {
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/p/[id]",
     as: `/p/${team.teamName}`,
+    passHref: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 111
@@ -2049,13 +2202,13 @@ const Index = props => {
   }, team.id, " - ", team.abbreviation), __jsx(LocName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 116
     },
     __self: undefined
   }, team.locationName), __jsx(NickName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 117
     },
     __self: undefined
   }, team.teamName), __jsx(FranLogo, {
@@ -2063,38 +2216,36 @@ const Index = props => {
     alt: `franlogo_${team.abbreviation}`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 118
     },
     __self: undefined
   }), __jsx(ColorsContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 122
     },
     __self: undefined
   }, __jsx(Color, {
     teamColor: getTeamColor(team.id, 'first'),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 123
     },
     __self: undefined
   }), __jsx(Color, {
     teamColor: getTeamColor(team.id, 'second'),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 124
     },
     __self: undefined
   }))))))));
 };
 
 Index.getInitialProps = async function () {
-  // const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
   // const res = await fetch('https://statsapi.web.nhl.com/api/v1/teams');
   // const data = await res.json();
   const data = _data_franchise__WEBPACK_IMPORTED_MODULE_4__;
-  console.log(`team data fetched. Count: ${data.teams}`);
   return {
     teams: data.teams
   };
