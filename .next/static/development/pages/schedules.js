@@ -14118,15 +14118,32 @@ var Schedules = function Schedules(props) {
 };
 
 Schedules.getInitialProps = function _callee() {
-  var data, date, searchDate, matchesOnDate;
+  var data, date, options, easterndate, year, month, day, searchDate, matchesOnDate;
   return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4__; //ToDo: Eastern Standard Time
+          data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_4__; // search matches in eastern-time "Today"
 
-          date = new Date().toISOString();
-          searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
+          date = new Date();
+          options = {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit'
+          };
+          options.timeZone = 'America/New_York';
+          easterndate = new Intl.DateTimeFormat('de-DE', options).format(date); // console.log('easternSearchdate:::', easterndate);
+
+          year = easterndate.slice(6, 10);
+          month = easterndate.slice(0, 2);
+          day = easterndate.slice(3, 5);
+          searchDate = year + month + day;
+          console.log('easternDate:::', searchDate); /// END ---------------
+          //ToDo: Eastern Standard Time
+          // const date = new Date().toISOString();
+          // const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
+          // console.log('searchdate:', searchDate);
+
           matchesOnDate = _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_1___default()(data).filter(function (entry) {
             return entry.est.indexOf(searchDate) > -1;
           });
@@ -14134,7 +14151,7 @@ Schedules.getInitialProps = function _callee() {
             matches: matchesOnDate
           });
 
-        case 5:
+        case 12:
         case "end":
           return _context.stop();
       }
@@ -14146,7 +14163,7 @@ Schedules.getInitialProps = function _callee() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fschedules&absolutePagePath=%2FUsers%2Fstefka1210%2FtheLab%2FnextOne%2Fpages%2Fschedules.js ***!
   \*****************************************************************************************************************************************/
@@ -14169,5 +14186,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=schedules.js.map

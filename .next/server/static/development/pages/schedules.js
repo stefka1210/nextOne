@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2206,10 +2206,27 @@ const Schedules = props => {
 };
 
 Schedules.getInitialProps = async function () {
-  const data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_2__; //ToDo: Eastern Standard Time
+  const data = _data_SeasonSchedule_20192020__WEBPACK_IMPORTED_MODULE_2__; // search matches in eastern-time "Today"
 
-  const date = new Date().toISOString();
-  const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
+  const date = new Date();
+  const options = {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  };
+  options.timeZone = 'America/New_York';
+  const easterndate = new Intl.DateTimeFormat('de-DE', options).format(date); // console.log('easternSearchdate:::', easterndate);
+
+  const year = easterndate.slice(6, 10);
+  const month = easterndate.slice(0, 2);
+  const day = easterndate.slice(3, 5);
+  const searchDate = year + month + day;
+  console.log('easternDate:::', searchDate); /// END ---------------
+  //ToDo: Eastern Standard Time
+  // const date = new Date().toISOString();
+  // const searchDate = date.substr(0, date.length - 14).replace(/\-/g, '');
+  // console.log('searchdate:', searchDate);
+
   const matchesOnDate = Object.values(data).filter(entry => {
     return entry.est.indexOf(searchDate) > -1;
   });
@@ -2222,7 +2239,7 @@ Schedules.getInitialProps = async function () {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!**********************************!*\
   !*** multi ./pages/schedules.js ***!
   \**********************************/
