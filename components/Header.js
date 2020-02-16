@@ -34,8 +34,8 @@ const Header = () => (
             <Link href="/schedules" passHref>
                 <ATag>Schedules</ATag>
             </Link>
-            <Link href="/about" passHref>
-                <ATag>About</ATag>
+            <Link href="/perdates" passHref>
+                <ATag>PerDates</ATag>
             </Link>
         </Navigation>
         <TimeContainer>
