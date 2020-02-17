@@ -15,7 +15,8 @@ const ATag = styled.a`
 `;
 const HeaderContainer = styled.header`
     display: flex;
-    padding: 0px;
+    height: 68px;
+    align-items: center;
 `;
 const Navigation = styled.div`
     display: block;
@@ -34,9 +35,15 @@ const Header = () => (
             <Link href="/schedules" passHref>
                 <ATag>Schedules</ATag>
             </Link>
+            {/* <Link href="/today" passHref>
+                <ATag>Today</ATag>
+            </Link> */}
             <Link href="/perdates" passHref>
                 <ATag>PerDates</ATag>
             </Link>
+            {/* <Link href="/schedulesNew" passHref>
+                <ATag>Schedules-New</ATag>
+            </Link> */}
         </Navigation>
         <TimeContainer>
             <Clock />

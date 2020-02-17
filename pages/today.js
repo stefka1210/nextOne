@@ -23,19 +23,20 @@ const Today = props => {
     );
 };
 Today.getInitialProps = async function() {
-    const res = await fetch('http://live.nhl.com/GameData/SeasonSchedule-20192020.json');
+    // const res = await fetch('http://live.nhl.com/GameData/SeasonSchedule-20192020.json');
+    const res = await fetch('https://statsapi.web.nhl.com/api/v1/schedule?date=2020-02-16.json');
     const data = await res.json();
 
     const searchDate = '20200204';
 
-    const matchesOnDate = data.filter(function(entry) {
-        return entry.est.indexOf(searchDate) > -1;
-    });
+    // const matchesOnDate = data.filter(function(entry) {
+    //     return entry.est.indexOf(searchDate) > -1;
+    // });
 
-    console.log('matchesToday::::', matchesOnDate.length);
+    // console.log('matchesToday::::', matchesOnDate.length);
 
     return {
-        matches: matchesOnDate
+        matches: data
     };
 
     //Beispiel

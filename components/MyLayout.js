@@ -2,10 +2,14 @@ import Header from './Header';
 import styled from 'styled-components';
 
 const PageLayout = styled.div`
-    font-family: 'Roboto Condensed', sans-serif;
-    width: 1596px;
-    width: calc(100vw - 80px);
-    padding: 40px;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Gotham A', 'Gotham B';
+    @media screen and (max-width: 1960px) {
+        width: 1600px;
+        padding: 0px 68px;
+    }
+    width: 1280px;
+    padding: 0px 64px;
 `;
 
 const Layout = props => (

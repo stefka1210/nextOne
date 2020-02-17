@@ -1,0 +1,5338 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2020. All Rights Reserved.",
+  "gamePk" : 2019020906,
+  "link" : "/api/v1/game/2019020906/feed/live",
+  "metaData" : {
+    "wait" : 10,
+    "timeStamp" : "20200216_175532"
+  },
+  "gameData" : {
+    "game" : {
+      "pk" : 2019020906,
+      "season" : "20192020",
+      "type" : "R"
+    },
+    "datetime" : {
+      "dateTime" : "2020-02-16T17:30:00Z"
+    },
+    "status" : {
+      "abstractGameState" : "Live",
+      "codedGameState" : "3",
+      "detailedState" : "In Progress",
+      "statusCode" : "3",
+      "startTimeTBD" : false
+    },
+    "teams" : {
+      "away" : {
+        "id" : 17,
+        "name" : "Detroit Red Wings",
+        "link" : "/api/v1/teams/17",
+        "venue" : {
+          "id" : 5145,
+          "name" : "Little Caesars Arena",
+          "link" : "/api/v1/venues/5145",
+          "city" : "Detroit",
+          "timeZone" : {
+            "id" : "America/Detroit",
+            "offset" : -5,
+            "tz" : "EST"
+          }
+        },
+        "abbreviation" : "DET",
+        "triCode" : "DET",
+        "teamName" : "Red Wings",
+        "locationName" : "Detroit",
+        "firstYearOfPlay" : "1932",
+        "division" : {
+          "id" : 17,
+          "name" : "Atlantic",
+          "nameShort" : "ATL",
+          "link" : "/api/v1/divisions/17",
+          "abbreviation" : "A"
+        },
+        "conference" : {
+          "id" : 6,
+          "name" : "Eastern",
+          "link" : "/api/v1/conferences/6"
+        },
+        "franchise" : {
+          "franchiseId" : 12,
+          "teamName" : "Red Wings",
+          "link" : "/api/v1/franchises/12"
+        },
+        "shortName" : "Detroit",
+        "officialSiteUrl" : "http://www.detroitredwings.com/",
+        "franchiseId" : 12,
+        "active" : true
+      },
+      "home" : {
+        "id" : 5,
+        "name" : "Pittsburgh Penguins",
+        "link" : "/api/v1/teams/5",
+        "venue" : {
+          "id" : 5034,
+          "name" : "PPG Paints Arena",
+          "link" : "/api/v1/venues/5034",
+          "city" : "Pittsburgh",
+          "timeZone" : {
+            "id" : "America/New_York",
+            "offset" : -5,
+            "tz" : "EST"
+          }
+        },
+        "abbreviation" : "PIT",
+        "triCode" : "PIT",
+        "teamName" : "Penguins",
+        "locationName" : "Pittsburgh",
+        "firstYearOfPlay" : "1967",
+        "division" : {
+          "id" : 18,
+          "name" : "Metropolitan",
+          "nameShort" : "Metro",
+          "link" : "/api/v1/divisions/18",
+          "abbreviation" : "M"
+        },
+        "conference" : {
+          "id" : 6,
+          "name" : "Eastern",
+          "link" : "/api/v1/conferences/6"
+        },
+        "franchise" : {
+          "franchiseId" : 17,
+          "teamName" : "Penguins",
+          "link" : "/api/v1/franchises/17"
+        },
+        "shortName" : "Pittsburgh",
+        "officialSiteUrl" : "http://pittsburghpenguins.com/",
+        "franchiseId" : 17,
+        "active" : true
+      }
+    },
+    "players" : {
+      "ID8471716" : {
+        "id" : 8471716,
+        "fullName" : "Justin Abdelkader",
+        "link" : "/api/v1/people/8471716",
+        "firstName" : "Justin",
+        "lastName" : "Abdelkader",
+        "primaryNumber" : "8",
+        "birthDate" : "1987-02-25",
+        "currentAge" : 32,
+        "birthCity" : "Muskegon",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 2\"",
+        "weight" : 213,
+        "active" : true,
+        "alternateCaptain" : true,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8476927" : {
+        "id" : 8476927,
+        "fullName" : "Teddy Blueger",
+        "link" : "/api/v1/people/8476927",
+        "firstName" : "Teddy",
+        "lastName" : "Blueger",
+        "primaryNumber" : "53",
+        "birthDate" : "1994-08-15",
+        "currentAge" : 25,
+        "birthCity" : "Riga",
+        "birthCountry" : "LVA",
+        "nationality" : "LVA",
+        "height" : "6' 0\"",
+        "weight" : 185,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8474602" : {
+        "id" : 8474602,
+        "fullName" : "Justin Schultz",
+        "link" : "/api/v1/people/8474602",
+        "firstName" : "Justin",
+        "lastName" : "Schultz",
+        "primaryNumber" : "4",
+        "birthDate" : "1990-07-06",
+        "currentAge" : 29,
+        "birthCity" : "Kelowna",
+        "birthStateProvince" : "BC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 193,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8470047" : {
+        "id" : 8470047,
+        "fullName" : "Valtteri Filppula",
+        "link" : "/api/v1/people/8470047",
+        "firstName" : "Valtteri",
+        "lastName" : "Filppula",
+        "primaryNumber" : "51",
+        "birthDate" : "1984-03-20",
+        "currentAge" : 35,
+        "birthCity" : "Vantaa",
+        "birthCountry" : "FIN",
+        "nationality" : "FIN",
+        "height" : "6' 0\"",
+        "weight" : 189,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8471675" : {
+        "id" : 8471675,
+        "fullName" : "Sidney Crosby",
+        "link" : "/api/v1/people/8471675",
+        "firstName" : "Sidney",
+        "lastName" : "Crosby",
+        "primaryNumber" : "87",
+        "birthDate" : "1987-08-07",
+        "currentAge" : 32,
+        "birthCity" : "Cole Harbour",
+        "birthStateProvince" : "NS",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "5' 11\"",
+        "weight" : 200,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : true,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8478507" : {
+        "id" : 8478507,
+        "fullName" : "John Marino",
+        "link" : "/api/v1/people/8478507",
+        "firstName" : "John",
+        "lastName" : "Marino",
+        "primaryNumber" : "6",
+        "birthDate" : "1997-05-21",
+        "currentAge" : 22,
+        "birthCity" : "North Easton",
+        "birthStateProvince" : "MA",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 181,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8471794" : {
+        "id" : 8471794,
+        "fullName" : "Darren Helm",
+        "link" : "/api/v1/people/8471794",
+        "firstName" : "Darren",
+        "lastName" : "Helm",
+        "primaryNumber" : "43",
+        "birthDate" : "1987-01-21",
+        "currentAge" : 33,
+        "birthCity" : "St. Andrews",
+        "birthStateProvince" : "MB",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 0\"",
+        "weight" : 192,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8470144" : {
+        "id" : 8470144,
+        "fullName" : "Frans Nielsen",
+        "link" : "/api/v1/people/8470144",
+        "firstName" : "Frans",
+        "lastName" : "Nielsen",
+        "primaryNumber" : "81",
+        "birthDate" : "1984-04-24",
+        "currentAge" : 35,
+        "birthCity" : "Herning",
+        "birthCountry" : "DNK",
+        "nationality" : "DNK",
+        "height" : "6' 1\"",
+        "weight" : 186,
+        "active" : true,
+        "alternateCaptain" : true,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8478866" : {
+        "id" : 8478866,
+        "fullName" : "Dominik Simon",
+        "link" : "/api/v1/people/8478866",
+        "firstName" : "Dominik",
+        "lastName" : "Simon",
+        "primaryNumber" : "12",
+        "birthDate" : "1994-08-08",
+        "currentAge" : 25,
+        "birthCity" : "Prague",
+        "birthCountry" : "CZE",
+        "nationality" : "CZE",
+        "height" : "5' 11\"",
+        "weight" : 190,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8473415" : {
+        "id" : 8473415,
+        "fullName" : "Alex Biega",
+        "link" : "/api/v1/people/8473415",
+        "firstName" : "Alex",
+        "lastName" : "Biega",
+        "primaryNumber" : "3",
+        "birthDate" : "1988-04-04",
+        "currentAge" : 31,
+        "birthCity" : "Montreal",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "5' 10\"",
+        "weight" : 199,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8476822" : {
+        "id" : 8476822,
+        "fullName" : "Luke Glendening",
+        "link" : "/api/v1/people/8476822",
+        "firstName" : "Luke",
+        "lastName" : "Glendening",
+        "primaryNumber" : "41",
+        "birthDate" : "1989-04-28",
+        "currentAge" : 30,
+        "birthCity" : "Grand Rapids",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 11\"",
+        "weight" : 191,
+        "active" : true,
+        "alternateCaptain" : true,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8475810" : {
+        "id" : 8475810,
+        "fullName" : "Bryan Rust",
+        "link" : "/api/v1/people/8475810",
+        "firstName" : "Bryan",
+        "lastName" : "Rust",
+        "primaryNumber" : "17",
+        "birthDate" : "1992-05-11",
+        "currentAge" : 27,
+        "birthCity" : "Pontiac",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 11\"",
+        "weight" : 192,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "ID8471677" : {
+        "id" : 8471677,
+        "fullName" : "Jack Johnson",
+        "link" : "/api/v1/people/8471677",
+        "firstName" : "Jack",
+        "lastName" : "Johnson",
+        "primaryNumber" : "3",
+        "birthDate" : "1987-01-13",
+        "currentAge" : 33,
+        "birthCity" : "Indianapolis",
+        "birthStateProvince" : "IN",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 227,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8477955" : {
+        "id" : 8477955,
+        "fullName" : "Jared McCann",
+        "link" : "/api/v1/people/8477955",
+        "firstName" : "Jared",
+        "lastName" : "McCann",
+        "primaryNumber" : "19",
+        "birthDate" : "1996-05-31",
+        "currentAge" : 23,
+        "birthCity" : "Stratford",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 1\"",
+        "weight" : 185,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8471215" : {
+        "id" : 8471215,
+        "fullName" : "Evgeni Malkin",
+        "link" : "/api/v1/people/8471215",
+        "firstName" : "Evgeni",
+        "lastName" : "Malkin",
+        "primaryNumber" : "71",
+        "birthDate" : "1986-07-31",
+        "currentAge" : 33,
+        "birthCity" : "Magnitogorsk",
+        "birthCountry" : "RUS",
+        "nationality" : "RUS",
+        "height" : "6' 3\"",
+        "weight" : 195,
+        "active" : true,
+        "alternateCaptain" : true,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8479425" : {
+        "id" : 8479425,
+        "fullName" : "Filip Hronek",
+        "link" : "/api/v1/people/8479425",
+        "firstName" : "Filip",
+        "lastName" : "Hronek",
+        "primaryNumber" : "17",
+        "birthDate" : "1997-11-02",
+        "currentAge" : 22,
+        "birthCity" : "Hradec Králové",
+        "birthCountry" : "CZE",
+        "nationality" : "CZE",
+        "height" : "6' 0\"",
+        "weight" : 183,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8477465" : {
+        "id" : 8477465,
+        "fullName" : "Tristan Jarry",
+        "link" : "/api/v1/people/8477465",
+        "firstName" : "Tristan",
+        "lastName" : "Jarry",
+        "primaryNumber" : "35",
+        "birthDate" : "1995-04-29",
+        "currentAge" : 24,
+        "birthCity" : "Surrey",
+        "birthStateProvince" : "BC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 194,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "ID8480945" : {
+        "id" : 8480945,
+        "fullName" : "Juuso Riikola",
+        "link" : "/api/v1/people/8480945",
+        "firstName" : "Juuso",
+        "lastName" : "Riikola",
+        "primaryNumber" : "50",
+        "birthDate" : "1993-11-09",
+        "currentAge" : 26,
+        "birthCity" : "Joensuu",
+        "birthCountry" : "FIN",
+        "nationality" : "FIN",
+        "height" : "6' 0\"",
+        "weight" : 189,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8473541" : {
+        "id" : 8473541,
+        "fullName" : "Jonathan Bernier",
+        "link" : "/api/v1/people/8473541",
+        "firstName" : "Jonathan",
+        "lastName" : "Bernier",
+        "primaryNumber" : "45",
+        "birthDate" : "1988-08-07",
+        "currentAge" : 31,
+        "birthCity" : "Laval",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 0\"",
+        "weight" : 185,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "ID8480946" : {
+        "id" : 8480946,
+        "fullName" : "Dominik Kahun",
+        "link" : "/api/v1/people/8480946",
+        "firstName" : "Dominik",
+        "lastName" : "Kahun",
+        "primaryNumber" : "24",
+        "birthDate" : "1995-07-02",
+        "currentAge" : 24,
+        "birthCity" : "Plana",
+        "birthCountry" : "CZE",
+        "nationality" : "DEU",
+        "height" : "5' 11\"",
+        "weight" : 175,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8471242" : {
+        "id" : 8471242,
+        "fullName" : "Mike Green",
+        "link" : "/api/v1/people/8471242",
+        "firstName" : "Mike",
+        "lastName" : "Green",
+        "primaryNumber" : "25",
+        "birthDate" : "1985-10-12",
+        "currentAge" : 34,
+        "birthCity" : "Calgary",
+        "birthStateProvince" : "AB",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 1\"",
+        "weight" : 210,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8478036" : {
+        "id" : 8478036,
+        "fullName" : "Christoffer Ehn",
+        "link" : "/api/v1/people/8478036",
+        "firstName" : "Christoffer",
+        "lastName" : "Ehn",
+        "primaryNumber" : "70",
+        "birthDate" : "1996-04-05",
+        "currentAge" : 23,
+        "birthCity" : "Skara",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 3\"",
+        "weight" : 195,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8477244" : {
+        "id" : 8477244,
+        "fullName" : "Chad Ruhwedel",
+        "link" : "/api/v1/people/8477244",
+        "firstName" : "Chad",
+        "lastName" : "Ruhwedel",
+        "primaryNumber" : "2",
+        "birthDate" : "1990-05-07",
+        "currentAge" : 29,
+        "birthCity" : "San Diego",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 11\"",
+        "weight" : 191,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8475461" : {
+        "id" : 8475461,
+        "fullName" : "Andrew Agozzino",
+        "link" : "/api/v1/people/8475461",
+        "firstName" : "Andrew",
+        "lastName" : "Agozzino",
+        "primaryNumber" : "26",
+        "birthDate" : "1991-01-03",
+        "currentAge" : 29,
+        "birthCity" : "Kleinburg",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "5' 10\"",
+        "weight" : 187,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8478074" : {
+        "id" : 8478074,
+        "fullName" : "Anthony Angello",
+        "link" : "/api/v1/people/8478074",
+        "firstName" : "Anthony",
+        "lastName" : "Angello",
+        "primaryNumber" : "57",
+        "birthDate" : "1996-03-06",
+        "currentAge" : 23,
+        "birthCity" : "Albany",
+        "birthStateProvince" : "NY",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 5\"",
+        "weight" : 210,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8470318" : {
+        "id" : 8470318,
+        "fullName" : "Jonathan Ericsson",
+        "link" : "/api/v1/people/8470318",
+        "firstName" : "Jonathan",
+        "lastName" : "Ericsson",
+        "primaryNumber" : "52",
+        "birthDate" : "1984-03-02",
+        "currentAge" : 35,
+        "birthCity" : "Karlskrona",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 4\"",
+        "weight" : 218,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8470657" : {
+        "id" : 8470657,
+        "fullName" : "Jimmy Howard",
+        "link" : "/api/v1/people/8470657",
+        "firstName" : "Jimmy",
+        "lastName" : "Howard",
+        "primaryNumber" : "35",
+        "birthDate" : "1984-03-26",
+        "currentAge" : 35,
+        "birthCity" : "Syracuse",
+        "birthStateProvince" : "NY",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 218,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "ID8471724" : {
+        "id" : 8471724,
+        "fullName" : "Kris Letang",
+        "link" : "/api/v1/people/8471724",
+        "firstName" : "Kris",
+        "lastName" : "Letang",
+        "primaryNumber" : "58",
+        "birthDate" : "1987-04-24",
+        "currentAge" : 32,
+        "birthCity" : "Montreal",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 0\"",
+        "weight" : 201,
+        "active" : true,
+        "alternateCaptain" : true,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8480184" : {
+        "id" : 8480184,
+        "fullName" : "Gustav Lindstrom",
+        "link" : "/api/v1/people/8480184",
+        "firstName" : "Gustav",
+        "lastName" : "Lindstrom",
+        "primaryNumber" : "28",
+        "birthDate" : "1998-10-20",
+        "currentAge" : 21,
+        "birthCity" : "Ostervala",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 2\"",
+        "weight" : 190,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8477969" : {
+        "id" : 8477969,
+        "fullName" : "Marcus Pettersson",
+        "link" : "/api/v1/people/8477969",
+        "firstName" : "Marcus",
+        "lastName" : "Pettersson",
+        "primaryNumber" : "28",
+        "birthDate" : "1996-05-08",
+        "currentAge" : 23,
+        "birthCity" : "Skellefteå",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 3\"",
+        "weight" : 177,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8475747" : {
+        "id" : 8475747,
+        "fullName" : "Patrik Nemeth",
+        "link" : "/api/v1/people/8475747",
+        "firstName" : "Patrik",
+        "lastName" : "Nemeth",
+        "primaryNumber" : "22",
+        "birthDate" : "1992-02-08",
+        "currentAge" : 28,
+        "birthCity" : "Stockholm",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 3\"",
+        "weight" : 228,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8477946" : {
+        "id" : 8477946,
+        "fullName" : "Dylan Larkin",
+        "link" : "/api/v1/people/8477946",
+        "firstName" : "Dylan",
+        "lastName" : "Larkin",
+        "primaryNumber" : "71",
+        "birthDate" : "1996-07-30",
+        "currentAge" : 23,
+        "birthCity" : "Waterford",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 198,
+        "active" : true,
+        "alternateCaptain" : true,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8470110" : {
+        "id" : 8470110,
+        "fullName" : "Trevor Daley",
+        "link" : "/api/v1/people/8470110",
+        "firstName" : "Trevor",
+        "lastName" : "Daley",
+        "primaryNumber" : "83",
+        "birthDate" : "1983-10-09",
+        "currentAge" : 36,
+        "birthCity" : "Toronto",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "5' 11\"",
+        "weight" : 199,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8477943" : {
+        "id" : 8477943,
+        "fullName" : "Brendan Perlini",
+        "link" : "/api/v1/people/8477943",
+        "firstName" : "Brendan",
+        "lastName" : "Perlini",
+        "primaryNumber" : "29",
+        "birthDate" : "1996-04-27",
+        "currentAge" : 23,
+        "birthCity" : "Guildford",
+        "birthCountry" : "GBR",
+        "nationality" : "GBR",
+        "height" : "6' 3\"",
+        "weight" : 211,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8471887" : {
+        "id" : 8471887,
+        "fullName" : "Patric Hornqvist",
+        "link" : "/api/v1/people/8471887",
+        "firstName" : "Patric",
+        "lastName" : "Hornqvist",
+        "primaryNumber" : "72",
+        "birthDate" : "1987-01-01",
+        "currentAge" : 33,
+        "birthCity" : "Sollentuna",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "5' 11\"",
+        "weight" : 189,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "ID8475722" : {
+        "id" : 8475722,
+        "fullName" : "Jason Zucker",
+        "link" : "/api/v1/people/8475722",
+        "firstName" : "Jason",
+        "lastName" : "Zucker",
+        "primaryNumber" : "16",
+        "birthDate" : "1992-01-16",
+        "currentAge" : 28,
+        "birthCity" : "Newport Beach",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 11\"",
+        "weight" : 192,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8479944" : {
+        "id" : 8479944,
+        "fullName" : "Zach Aston-Reese",
+        "link" : "/api/v1/people/8479944",
+        "firstName" : "Zach",
+        "lastName" : "Aston-Reese",
+        "primaryNumber" : "46",
+        "birthDate" : "1994-08-10",
+        "currentAge" : 25,
+        "birthCity" : "Staten Island",
+        "birthStateProvince" : "NY",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 0\"",
+        "weight" : 204,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8476899" : {
+        "id" : 8476899,
+        "fullName" : "Matt Murray",
+        "link" : "/api/v1/people/8476899",
+        "firstName" : "Matt",
+        "lastName" : "Murray",
+        "primaryNumber" : "30",
+        "birthDate" : "1994-05-25",
+        "currentAge" : 25,
+        "birthCity" : "Thunder Bay",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 4\"",
+        "weight" : 178,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "ID8476960" : {
+        "id" : 8476960,
+        "fullName" : "Andreas Athanasiou",
+        "link" : "/api/v1/people/8476960",
+        "firstName" : "Andreas",
+        "lastName" : "Athanasiou",
+        "primaryNumber" : "72",
+        "birthDate" : "1994-08-06",
+        "currentAge" : 25,
+        "birthCity" : "Woodbridge",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 188,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8477454" : {
+        "id" : 8477454,
+        "fullName" : "Adam Erne",
+        "link" : "/api/v1/people/8477454",
+        "firstName" : "Adam",
+        "lastName" : "Erne",
+        "primaryNumber" : "73",
+        "birthDate" : "1995-04-20",
+        "currentAge" : 24,
+        "birthCity" : "New Haven",
+        "birthStateProvince" : "CT",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 212,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8477952" : {
+        "id" : 8477952,
+        "fullName" : "Robby Fabbri",
+        "link" : "/api/v1/people/8477952",
+        "firstName" : "Robby",
+        "lastName" : "Fabbri",
+        "primaryNumber" : "14",
+        "birthDate" : "1996-01-22",
+        "currentAge" : 24,
+        "birthCity" : "Mississauga",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "5' 10\"",
+        "weight" : 190,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8477479" : {
+        "id" : 8477479,
+        "fullName" : "Tyler Bertuzzi",
+        "link" : "/api/v1/people/8477479",
+        "firstName" : "Tyler",
+        "lastName" : "Bertuzzi",
+        "primaryNumber" : "59",
+        "birthDate" : "1995-02-24",
+        "currentAge" : 24,
+        "birthCity" : "Sudbury",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 1\"",
+        "weight" : 199,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "ID8477511" : {
+        "id" : 8477511,
+        "fullName" : "Anthony Mantha",
+        "link" : "/api/v1/people/8477511",
+        "firstName" : "Anthony",
+        "lastName" : "Mantha",
+        "primaryNumber" : "39",
+        "birthDate" : "1994-09-16",
+        "currentAge" : 25,
+        "birthCity" : "Longueuil",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 5\"",
+        "weight" : 234,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "ID8477474" : {
+        "id" : 8477474,
+        "fullName" : "Madison Bowey",
+        "link" : "/api/v1/people/8477474",
+        "firstName" : "Madison",
+        "lastName" : "Bowey",
+        "primaryNumber" : "74",
+        "birthDate" : "1995-04-22",
+        "currentAge" : 24,
+        "birthCity" : "Winnipeg",
+        "birthStateProvince" : "MB",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 202,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "ID8478043" : {
+        "id" : 8478043,
+        "fullName" : "Sam Lafferty",
+        "link" : "/api/v1/people/8478043",
+        "firstName" : "Sam",
+        "lastName" : "Lafferty",
+        "primaryNumber" : "37",
+        "birthDate" : "1995-03-06",
+        "currentAge" : 24,
+        "birthCity" : "Hollidaysburg",
+        "birthStateProvince" : "PA",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 195,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "ID8479293" : {
+        "id" : 8479293,
+        "fullName" : "Brandon Tanev",
+        "link" : "/api/v1/people/8479293",
+        "firstName" : "Brandon",
+        "lastName" : "Tanev",
+        "primaryNumber" : "13",
+        "birthDate" : "1991-12-31",
+        "currentAge" : 28,
+        "birthCity" : "Toronto",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 0\"",
+        "weight" : 180,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      }
+    },
+    "venue" : {
+      "id" : 5034,
+      "name" : "PPG Paints Arena",
+      "link" : "/api/v1/venues/5034"
+    }
+  },
+  "liveData" : {
+    "plays" : {
+      "allPlays" : [ {
+        "result" : {
+          "event" : "Game Scheduled",
+          "eventCode" : "PIT1",
+          "eventTypeId" : "GAME_SCHEDULED",
+          "description" : "Game Scheduled"
+        },
+        "about" : {
+          "eventIdx" : 0,
+          "eventId" : 1,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "00:00",
+          "periodTimeRemaining" : "20:00",
+          "dateTime" : "2020-02-16T16:32:50Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : { }
+      }, {
+        "result" : {
+          "event" : "Period Ready",
+          "eventCode" : "PIT5",
+          "eventTypeId" : "PERIOD_READY",
+          "description" : "Period Ready"
+        },
+        "about" : {
+          "eventIdx" : 1,
+          "eventId" : 5,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "00:00",
+          "periodTimeRemaining" : "20:00",
+          "dateTime" : "2020-02-16T17:40:21Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : { }
+      }, {
+        "result" : {
+          "event" : "Period Start",
+          "eventCode" : "PIT51",
+          "eventTypeId" : "PERIOD_START",
+          "description" : "Period Start"
+        },
+        "about" : {
+          "eventIdx" : 2,
+          "eventId" : 51,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "00:00",
+          "periodTimeRemaining" : "20:00",
+          "dateTime" : "2020-02-16T17:42:12Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : { }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8470144,
+            "fullName" : "Frans Nielsen",
+            "link" : "/api/v1/people/8470144"
+          },
+          "playerType" : "Winner"
+        }, {
+          "player" : {
+            "id" : 8471215,
+            "fullName" : "Evgeni Malkin",
+            "link" : "/api/v1/people/8471215"
+          },
+          "playerType" : "Loser"
+        } ],
+        "result" : {
+          "event" : "Faceoff",
+          "eventCode" : "PIT52",
+          "eventTypeId" : "FACEOFF",
+          "description" : "Frans Nielsen faceoff won against Evgeni Malkin"
+        },
+        "about" : {
+          "eventIdx" : 3,
+          "eventId" : 52,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "00:00",
+          "periodTimeRemaining" : "20:00",
+          "dateTime" : "2020-02-16T17:42:12Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 0.0,
+          "y" : 0.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8476822,
+            "fullName" : "Luke Glendening",
+            "link" : "/api/v1/people/8476822"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8477969,
+            "fullName" : "Marcus Pettersson",
+            "link" : "/api/v1/people/8477969"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT8",
+          "eventTypeId" : "HIT",
+          "description" : "Luke Glendening hit Marcus Pettersson"
+        },
+        "about" : {
+          "eventIdx" : 4,
+          "eventId" : 8,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "00:19",
+          "periodTimeRemaining" : "19:41",
+          "dateTime" : "2020-02-16T17:42:57Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 44.0,
+          "y" : 41.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8470144,
+            "fullName" : "Frans Nielsen",
+            "link" : "/api/v1/people/8470144"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8475810,
+            "fullName" : "Bryan Rust",
+            "link" : "/api/v1/people/8475810"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT10",
+          "eventTypeId" : "HIT",
+          "description" : "Frans Nielsen hit Bryan Rust"
+        },
+        "about" : {
+          "eventIdx" : 5,
+          "eventId" : 10,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "00:34",
+          "periodTimeRemaining" : "19:26",
+          "dateTime" : "2020-02-16T17:43:28Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 50.0,
+          "y" : 40.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8478866,
+            "fullName" : "Dominik Simon",
+            "link" : "/api/v1/people/8478866"
+          },
+          "playerType" : "PlayerID"
+        } ],
+        "result" : {
+          "event" : "Giveaway",
+          "eventCode" : "PIT11",
+          "eventTypeId" : "GIVEAWAY",
+          "description" : "Giveaway by Dominik Simon"
+        },
+        "about" : {
+          "eventIdx" : 6,
+          "eventId" : 11,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "01:09",
+          "periodTimeRemaining" : "18:51",
+          "dateTime" : "2020-02-16T17:43:47Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -60.0,
+          "y" : 26.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477244,
+            "fullName" : "Chad Ruhwedel",
+            "link" : "/api/v1/people/8477244"
+          },
+          "playerType" : "PlayerID"
+        } ],
+        "result" : {
+          "event" : "Takeaway",
+          "eventCode" : "PIT12",
+          "eventTypeId" : "TAKEAWAY",
+          "description" : "Takeaway by Chad Ruhwedel"
+        },
+        "about" : {
+          "eventIdx" : 7,
+          "eventId" : 12,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "01:31",
+          "periodTimeRemaining" : "18:29",
+          "dateTime" : "2020-02-16T17:44:17Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 63.0,
+          "y" : -41.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477479,
+            "fullName" : "Tyler Bertuzzi",
+            "link" : "/api/v1/people/8477479"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8476899,
+            "fullName" : "Matt Murray",
+            "link" : "/api/v1/people/8476899"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT53",
+          "eventTypeId" : "SHOT",
+          "description" : "Tyler Bertuzzi Wrist Shot saved by Matt Murray",
+          "secondaryType" : "Wrist Shot"
+        },
+        "about" : {
+          "eventIdx" : 8,
+          "eventId" : 53,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "02:21",
+          "periodTimeRemaining" : "17:39",
+          "dateTime" : "2020-02-16T17:44:59Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -57.0,
+          "y" : 2.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471716,
+            "fullName" : "Justin Abdelkader",
+            "link" : "/api/v1/people/8471716"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8477969,
+            "fullName" : "Marcus Pettersson",
+            "link" : "/api/v1/people/8477969"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT13",
+          "eventTypeId" : "HIT",
+          "description" : "Justin Abdelkader hit Marcus Pettersson"
+        },
+        "about" : {
+          "eventIdx" : 9,
+          "eventId" : 13,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "02:32",
+          "periodTimeRemaining" : "17:28",
+          "dateTime" : "2020-02-16T17:45:10Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -60.0,
+          "y" : 39.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471887,
+            "fullName" : "Patric Hornqvist",
+            "link" : "/api/v1/people/8471887"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8479425,
+            "fullName" : "Filip Hronek",
+            "link" : "/api/v1/people/8479425"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT14",
+          "eventTypeId" : "HIT",
+          "description" : "Patric Hornqvist hit Filip Hronek"
+        },
+        "about" : {
+          "eventIdx" : 10,
+          "eventId" : 14,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "02:45",
+          "periodTimeRemaining" : "17:15",
+          "dateTime" : "2020-02-16T17:45:23Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 98.0,
+          "y" : -10.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471677,
+            "fullName" : "Jack Johnson",
+            "link" : "/api/v1/people/8471677"
+          },
+          "playerType" : "Shooter"
+        } ],
+        "result" : {
+          "event" : "Missed Shot",
+          "eventCode" : "PIT54",
+          "eventTypeId" : "MISSED_SHOT",
+          "description" : "Jack Johnson Over Net"
+        },
+        "about" : {
+          "eventIdx" : 11,
+          "eventId" : 54,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "02:49",
+          "periodTimeRemaining" : "17:11",
+          "dateTime" : "2020-02-16T17:45:27Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 35.0,
+          "y" : 32.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477474,
+            "fullName" : "Madison Bowey",
+            "link" : "/api/v1/people/8477474"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8476899,
+            "fullName" : "Matt Murray",
+            "link" : "/api/v1/people/8476899"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT55",
+          "eventTypeId" : "SHOT",
+          "description" : "Madison Bowey Snap Shot saved by Matt Murray",
+          "secondaryType" : "Snap Shot"
+        },
+        "about" : {
+          "eventIdx" : 12,
+          "eventId" : 55,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "03:15",
+          "periodTimeRemaining" : "16:45",
+          "dateTime" : "2020-02-16T17:45:54Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -37.0,
+          "y" : 31.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471716,
+            "fullName" : "Justin Abdelkader",
+            "link" : "/api/v1/people/8471716"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8471724,
+            "fullName" : "Kris Letang",
+            "link" : "/api/v1/people/8471724"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT15",
+          "eventTypeId" : "HIT",
+          "description" : "Justin Abdelkader hit Kris Letang"
+        },
+        "about" : {
+          "eventIdx" : 13,
+          "eventId" : 15,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "03:23",
+          "periodTimeRemaining" : "16:37",
+          "dateTime" : "2020-02-16T17:46:01Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -82.0,
+          "y" : -38.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8480184,
+            "fullName" : "Gustav Lindstrom",
+            "link" : "/api/v1/people/8480184"
+          },
+          "playerType" : "PlayerID"
+        } ],
+        "result" : {
+          "event" : "Giveaway",
+          "eventCode" : "PIT16",
+          "eventTypeId" : "GIVEAWAY",
+          "description" : "Giveaway by Gustav Lindstrom"
+        },
+        "about" : {
+          "eventIdx" : 14,
+          "eventId" : 16,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "03:31",
+          "periodTimeRemaining" : "16:29",
+          "dateTime" : "2020-02-16T17:46:09Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -39.0,
+          "y" : -19.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477474,
+            "fullName" : "Madison Bowey",
+            "link" : "/api/v1/people/8477474"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8475810,
+            "fullName" : "Bryan Rust",
+            "link" : "/api/v1/people/8475810"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT17",
+          "eventTypeId" : "HIT",
+          "description" : "Madison Bowey hit Bryan Rust"
+        },
+        "about" : {
+          "eventIdx" : 15,
+          "eventId" : 17,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "03:37",
+          "periodTimeRemaining" : "16:23",
+          "dateTime" : "2020-02-16T17:46:16Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 98.0,
+          "y" : -16.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477244,
+            "fullName" : "Chad Ruhwedel",
+            "link" : "/api/v1/people/8477244"
+          },
+          "playerType" : "Shooter"
+        } ],
+        "result" : {
+          "event" : "Missed Shot",
+          "eventCode" : "PIT56",
+          "eventTypeId" : "MISSED_SHOT",
+          "description" : "Chad Ruhwedel Wide of Net"
+        },
+        "about" : {
+          "eventIdx" : 16,
+          "eventId" : 56,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "03:39",
+          "periodTimeRemaining" : "16:21",
+          "dateTime" : "2020-02-16T17:46:17Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 39.0,
+          "y" : -15.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477955,
+            "fullName" : "Jared McCann",
+            "link" : "/api/v1/people/8477955"
+          },
+          "playerType" : "PlayerID"
+        } ],
+        "result" : {
+          "event" : "Takeaway",
+          "eventCode" : "PIT18",
+          "eventTypeId" : "TAKEAWAY",
+          "description" : "Takeaway by Jared McCann"
+        },
+        "about" : {
+          "eventIdx" : 17,
+          "eventId" : 18,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "03:43",
+          "periodTimeRemaining" : "16:17",
+          "dateTime" : "2020-02-16T17:46:22Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 46.0,
+          "y" : 36.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "result" : {
+          "event" : "Stoppage",
+          "eventCode" : "PIT20",
+          "eventTypeId" : "STOP",
+          "description" : "Offside"
+        },
+        "about" : {
+          "eventIdx" : 18,
+          "eventId" : 20,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "04:04",
+          "periodTimeRemaining" : "15:56",
+          "dateTime" : "2020-02-16T17:46:56Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : { }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471675,
+            "fullName" : "Sidney Crosby",
+            "link" : "/api/v1/people/8471675"
+          },
+          "playerType" : "Winner"
+        }, {
+          "player" : {
+            "id" : 8470144,
+            "fullName" : "Frans Nielsen",
+            "link" : "/api/v1/people/8470144"
+          },
+          "playerType" : "Loser"
+        } ],
+        "result" : {
+          "event" : "Faceoff",
+          "eventCode" : "PIT57",
+          "eventTypeId" : "FACEOFF",
+          "description" : "Sidney Crosby faceoff won against Frans Nielsen"
+        },
+        "about" : {
+          "eventIdx" : 19,
+          "eventId" : 57,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "04:04",
+          "periodTimeRemaining" : "15:56",
+          "dateTime" : "2020-02-16T17:47:05Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 0.0,
+          "y" : 0.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8473415,
+            "fullName" : "Alex Biega",
+            "link" : "/api/v1/people/8473415"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8477969,
+            "fullName" : "Marcus Pettersson",
+            "link" : "/api/v1/people/8477969"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT21",
+          "eventTypeId" : "HIT",
+          "description" : "Alex Biega hit Marcus Pettersson"
+        },
+        "about" : {
+          "eventIdx" : 20,
+          "eventId" : 21,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "04:10",
+          "periodTimeRemaining" : "15:50",
+          "dateTime" : "2020-02-16T17:47:13Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -14.0,
+          "y" : 41.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8475722,
+            "fullName" : "Jason Zucker",
+            "link" : "/api/v1/people/8475722"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8470657,
+            "fullName" : "Jimmy Howard",
+            "link" : "/api/v1/people/8470657"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT58",
+          "eventTypeId" : "SHOT",
+          "description" : "Jason Zucker Wrist Shot saved by Jimmy Howard",
+          "secondaryType" : "Wrist Shot"
+        },
+        "about" : {
+          "eventIdx" : 21,
+          "eventId" : 58,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "04:46",
+          "periodTimeRemaining" : "15:14",
+          "dateTime" : "2020-02-16T17:47:49Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 88.0,
+          "y" : 13.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8478866,
+            "fullName" : "Dominik Simon",
+            "link" : "/api/v1/people/8478866"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8470657,
+            "fullName" : "Jimmy Howard",
+            "link" : "/api/v1/people/8470657"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT59",
+          "eventTypeId" : "SHOT",
+          "description" : "Dominik Simon Snap Shot saved by Jimmy Howard",
+          "secondaryType" : "Snap Shot"
+        },
+        "about" : {
+          "eventIdx" : 22,
+          "eventId" : 59,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "04:55",
+          "periodTimeRemaining" : "15:05",
+          "dateTime" : "2020-02-16T17:47:58Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 68.0,
+          "y" : -27.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8479425,
+            "fullName" : "Filip Hronek",
+            "link" : "/api/v1/people/8479425"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8476927,
+            "fullName" : "Teddy Blueger",
+            "link" : "/api/v1/people/8476927"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT23",
+          "eventTypeId" : "HIT",
+          "description" : "Filip Hronek hit Teddy Blueger"
+        },
+        "about" : {
+          "eventIdx" : 23,
+          "eventId" : 23,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:14",
+          "periodTimeRemaining" : "14:46",
+          "dateTime" : "2020-02-16T17:48:31Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 98.0,
+          "y" : -24.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8479293,
+            "fullName" : "Brandon Tanev",
+            "link" : "/api/v1/people/8479293"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8470657,
+            "fullName" : "Jimmy Howard",
+            "link" : "/api/v1/people/8470657"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT60",
+          "eventTypeId" : "SHOT",
+          "description" : "Brandon Tanev Wrist Shot saved by Jimmy Howard",
+          "secondaryType" : "Wrist Shot"
+        },
+        "about" : {
+          "eventIdx" : 24,
+          "eventId" : 60,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:15",
+          "periodTimeRemaining" : "14:45",
+          "dateTime" : "2020-02-16T17:48:21Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 80.0,
+          "y" : 13.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8479944,
+            "fullName" : "Zach Aston-Reese",
+            "link" : "/api/v1/people/8479944"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8471242,
+            "fullName" : "Mike Green",
+            "link" : "/api/v1/people/8471242"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT22",
+          "eventTypeId" : "HIT",
+          "description" : "Zach Aston-Reese hit Mike Green"
+        },
+        "about" : {
+          "eventIdx" : 25,
+          "eventId" : 22,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:16",
+          "periodTimeRemaining" : "14:44",
+          "dateTime" : "2020-02-16T17:48:19Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 99.0,
+          "y" : -11.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8476927,
+            "fullName" : "Teddy Blueger",
+            "link" : "/api/v1/people/8476927"
+          },
+          "playerType" : "Winner"
+        }, {
+          "player" : {
+            "id" : 8470047,
+            "fullName" : "Valtteri Filppula",
+            "link" : "/api/v1/people/8470047"
+          },
+          "playerType" : "Loser"
+        } ],
+        "result" : {
+          "event" : "Faceoff",
+          "eventCode" : "PIT61",
+          "eventTypeId" : "FACEOFF",
+          "description" : "Teddy Blueger faceoff won against Valtteri Filppula"
+        },
+        "about" : {
+          "eventIdx" : 26,
+          "eventId" : 61,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:16",
+          "periodTimeRemaining" : "14:44",
+          "dateTime" : "2020-02-16T17:48:40Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 69.0,
+          "y" : 22.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477479,
+            "fullName" : "Tyler Bertuzzi",
+            "link" : "/api/v1/people/8477479"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8471724,
+            "fullName" : "Kris Letang",
+            "link" : "/api/v1/people/8471724"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT25",
+          "eventTypeId" : "HIT",
+          "description" : "Tyler Bertuzzi hit Kris Letang"
+        },
+        "about" : {
+          "eventIdx" : 27,
+          "eventId" : 25,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:22",
+          "periodTimeRemaining" : "14:38",
+          "dateTime" : "2020-02-16T17:48:53Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 34.0,
+          "y" : 40.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8476927,
+            "fullName" : "Teddy Blueger",
+            "link" : "/api/v1/people/8476927"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8471242,
+            "fullName" : "Mike Green",
+            "link" : "/api/v1/people/8471242"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT26",
+          "eventTypeId" : "HIT",
+          "description" : "Teddy Blueger hit Mike Green"
+        },
+        "about" : {
+          "eventIdx" : 28,
+          "eventId" : 26,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:27",
+          "periodTimeRemaining" : "14:33",
+          "dateTime" : "2020-02-16T17:49:13Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 61.0,
+          "y" : 38.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471724,
+            "fullName" : "Kris Letang",
+            "link" : "/api/v1/people/8471724"
+          },
+          "playerType" : "PlayerID"
+        } ],
+        "result" : {
+          "event" : "Giveaway",
+          "eventCode" : "PIT27",
+          "eventTypeId" : "GIVEAWAY",
+          "description" : "Giveaway by Kris Letang"
+        },
+        "about" : {
+          "eventIdx" : 29,
+          "eventId" : 27,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:35",
+          "periodTimeRemaining" : "14:25",
+          "dateTime" : "2020-02-16T17:50:00Z",
+          "goals" : {
+            "away" : 0,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -68.0,
+          "y" : 1.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8470047,
+            "fullName" : "Valtteri Filppula",
+            "link" : "/api/v1/people/8470047"
+          },
+          "playerType" : "Scorer",
+          "seasonTotal" : 5
+        }, {
+          "player" : {
+            "id" : 8477479,
+            "fullName" : "Tyler Bertuzzi",
+            "link" : "/api/v1/people/8477479"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 21
+        }, {
+          "player" : {
+            "id" : 8476899,
+            "fullName" : "Matt Murray",
+            "link" : "/api/v1/people/8476899"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Goal",
+          "eventCode" : "PIT62",
+          "eventTypeId" : "GOAL",
+          "description" : "Valtteri Filppula (5) Backhand, assists: Tyler Bertuzzi (21)",
+          "secondaryType" : "Backhand",
+          "strength" : {
+            "code" : "EVEN",
+            "name" : "Even"
+          },
+          "emptyNet" : false
+        },
+        "about" : {
+          "eventIdx" : 30,
+          "eventId" : 62,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:37",
+          "periodTimeRemaining" : "14:23",
+          "dateTime" : "2020-02-16T17:49:10Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -80.0,
+          "y" : 7.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477946,
+            "fullName" : "Dylan Larkin",
+            "link" : "/api/v1/people/8477946"
+          },
+          "playerType" : "Winner"
+        }, {
+          "player" : {
+            "id" : 8471675,
+            "fullName" : "Sidney Crosby",
+            "link" : "/api/v1/people/8471675"
+          },
+          "playerType" : "Loser"
+        } ],
+        "result" : {
+          "event" : "Faceoff",
+          "eventCode" : "PIT63",
+          "eventTypeId" : "FACEOFF",
+          "description" : "Dylan Larkin faceoff won against Sidney Crosby"
+        },
+        "about" : {
+          "eventIdx" : 31,
+          "eventId" : 63,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:37",
+          "periodTimeRemaining" : "14:23",
+          "dateTime" : "2020-02-16T17:50:02Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 0.0,
+          "y" : 0.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477946,
+            "fullName" : "Dylan Larkin",
+            "link" : "/api/v1/people/8477946"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8476899,
+            "fullName" : "Matt Murray",
+            "link" : "/api/v1/people/8476899"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT64",
+          "eventTypeId" : "SHOT",
+          "description" : "Dylan Larkin Wrist Shot saved by Matt Murray",
+          "secondaryType" : "Wrist Shot"
+        },
+        "about" : {
+          "eventIdx" : 32,
+          "eventId" : 64,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "06:20",
+          "periodTimeRemaining" : "13:40",
+          "dateTime" : "2020-02-16T17:50:42Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -4.0,
+          "y" : -32.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477946,
+            "fullName" : "Dylan Larkin",
+            "link" : "/api/v1/people/8477946"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8476899,
+            "fullName" : "Matt Murray",
+            "link" : "/api/v1/people/8476899"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT65",
+          "eventTypeId" : "SHOT",
+          "description" : "Dylan Larkin Backhand saved by Matt Murray",
+          "secondaryType" : "Backhand"
+        },
+        "about" : {
+          "eventIdx" : 33,
+          "eventId" : 65,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "06:27",
+          "periodTimeRemaining" : "13:33",
+          "dateTime" : "2020-02-16T17:50:48Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -85.0,
+          "y" : 7.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8476822,
+            "fullName" : "Luke Glendening",
+            "link" : "/api/v1/people/8476822"
+          },
+          "playerType" : "Hitter"
+        }, {
+          "player" : {
+            "id" : 8471677,
+            "fullName" : "Jack Johnson",
+            "link" : "/api/v1/people/8471677"
+          },
+          "playerType" : "Hittee"
+        } ],
+        "result" : {
+          "event" : "Hit",
+          "eventCode" : "PIT28",
+          "eventTypeId" : "HIT",
+          "description" : "Luke Glendening hit Jack Johnson"
+        },
+        "about" : {
+          "eventIdx" : 34,
+          "eventId" : 28,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "06:56",
+          "periodTimeRemaining" : "13:04",
+          "dateTime" : "2020-02-16T17:51:17Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 85.0,
+          "y" : 36.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8475461,
+            "fullName" : "Andrew Agozzino",
+            "link" : "/api/v1/people/8475461"
+          },
+          "playerType" : "PlayerID"
+        } ],
+        "result" : {
+          "event" : "Takeaway",
+          "eventCode" : "PIT29",
+          "eventTypeId" : "TAKEAWAY",
+          "description" : "Takeaway by Andrew Agozzino"
+        },
+        "about" : {
+          "eventIdx" : 35,
+          "eventId" : 29,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "07:53",
+          "periodTimeRemaining" : "12:07",
+          "dateTime" : "2020-02-16T17:53:09Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 90.0,
+          "y" : 5.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8478043,
+            "fullName" : "Sam Lafferty",
+            "link" : "/api/v1/people/8478043"
+          },
+          "playerType" : "Shooter"
+        }, {
+          "player" : {
+            "id" : 8470657,
+            "fullName" : "Jimmy Howard",
+            "link" : "/api/v1/people/8470657"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Shot",
+          "eventCode" : "PIT66",
+          "eventTypeId" : "SHOT",
+          "description" : "Sam Lafferty Wrist Shot saved by Jimmy Howard",
+          "secondaryType" : "Wrist Shot"
+        },
+        "about" : {
+          "eventIdx" : 36,
+          "eventId" : 66,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "07:56",
+          "periodTimeRemaining" : "12:04",
+          "dateTime" : "2020-02-16T17:52:20Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 80.0,
+          "y" : 8.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8478043,
+            "fullName" : "Sam Lafferty",
+            "link" : "/api/v1/people/8478043"
+          },
+          "playerType" : "Scorer",
+          "seasonTotal" : 6
+        }, {
+          "player" : {
+            "id" : 8471887,
+            "fullName" : "Patric Hornqvist",
+            "link" : "/api/v1/people/8471887"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 12
+        }, {
+          "player" : {
+            "id" : 8475461,
+            "fullName" : "Andrew Agozzino",
+            "link" : "/api/v1/people/8475461"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 2
+        }, {
+          "player" : {
+            "id" : 8470657,
+            "fullName" : "Jimmy Howard",
+            "link" : "/api/v1/people/8470657"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Goal",
+          "eventCode" : "PIT67",
+          "eventTypeId" : "GOAL",
+          "description" : "Sam Lafferty (6) , assists: Patric Hornqvist (12), Andrew Agozzino (2)",
+          "strength" : {
+            "code" : "EVEN",
+            "name" : "Even"
+          },
+          "emptyNet" : false
+        },
+        "about" : {
+          "eventIdx" : 37,
+          "eventId" : 67,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "07:58",
+          "periodTimeRemaining" : "12:02",
+          "dateTime" : "2020-02-16T17:52:30Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 1
+          }
+        },
+        "coordinates" : {
+          "x" : 81.0,
+          "y" : 3.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8471215,
+            "fullName" : "Evgeni Malkin",
+            "link" : "/api/v1/people/8471215"
+          },
+          "playerType" : "Winner"
+        }, {
+          "player" : {
+            "id" : 8470047,
+            "fullName" : "Valtteri Filppula",
+            "link" : "/api/v1/people/8470047"
+          },
+          "playerType" : "Loser"
+        } ],
+        "result" : {
+          "event" : "Faceoff",
+          "eventCode" : "PIT30",
+          "eventTypeId" : "FACEOFF",
+          "description" : "Evgeni Malkin faceoff won against Valtteri Filppula"
+        },
+        "about" : {
+          "eventIdx" : 38,
+          "eventId" : 30,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "07:58",
+          "periodTimeRemaining" : "12:02",
+          "dateTime" : "2020-02-16T17:53:48Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 1
+          }
+        },
+        "coordinates" : {
+          "x" : 0.0,
+          "y" : 0.0
+        },
+        "team" : {
+          "id" : 5,
+          "name" : "Pittsburgh Penguins",
+          "link" : "/api/v1/teams/5",
+          "triCode" : "PIT"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8473415,
+            "fullName" : "Alex Biega",
+            "link" : "/api/v1/people/8473415"
+          },
+          "playerType" : "Shooter"
+        } ],
+        "result" : {
+          "event" : "Missed Shot",
+          "eventCode" : "PIT68",
+          "eventTypeId" : "MISSED_SHOT",
+          "description" : "Alex Biega Over Net"
+        },
+        "about" : {
+          "eventIdx" : 39,
+          "eventId" : 68,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "08:22",
+          "periodTimeRemaining" : "11:38",
+          "dateTime" : "2020-02-16T17:54:08Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 1
+          }
+        },
+        "coordinates" : {
+          "x" : -35.0,
+          "y" : 33.0
+        },
+        "team" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17",
+          "triCode" : "DET"
+        }
+      }, {
+        "result" : {
+          "event" : "Stoppage",
+          "eventCode" : "PIT31",
+          "eventTypeId" : "STOP",
+          "description" : "High Stick"
+        },
+        "about" : {
+          "eventIdx" : 40,
+          "eventId" : 31,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "08:26",
+          "periodTimeRemaining" : "11:34",
+          "dateTime" : "2020-02-16T17:54:17Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 1
+          }
+        },
+        "coordinates" : { }
+      } ],
+      "scoringPlays" : [ 30, 37 ],
+      "penaltyPlays" : [ ],
+      "playsByPeriod" : [ {
+        "startIndex" : 0,
+        "plays" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
+        "endIndex" : 40
+      } ],
+      "currentPlay" : {
+        "result" : {
+          "event" : "Stoppage",
+          "eventCode" : "PIT31",
+          "eventTypeId" : "STOP",
+          "description" : "High Stick"
+        },
+        "about" : {
+          "eventIdx" : 40,
+          "eventId" : 31,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "08:26",
+          "periodTimeRemaining" : "11:34",
+          "dateTime" : "2020-02-16T17:54:17Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 1
+          }
+        },
+        "coordinates" : { }
+      }
+    },
+    "linescore" : {
+      "currentPeriod" : 1,
+      "currentPeriodOrdinal" : "1st",
+      "currentPeriodTimeRemaining" : "11:34",
+      "periods" : [ {
+        "periodType" : "REGULAR",
+        "startTime" : "2020-02-16T17:42:12Z",
+        "num" : 1,
+        "ordinalNum" : "1st",
+        "home" : {
+          "goals" : 1,
+          "shotsOnGoal" : 5,
+          "rinkSide" : "left"
+        },
+        "away" : {
+          "goals" : 1,
+          "shotsOnGoal" : 5,
+          "rinkSide" : "right"
+        }
+      } ],
+      "shootoutInfo" : {
+        "away" : {
+          "scores" : 0,
+          "attempts" : 0
+        },
+        "home" : {
+          "scores" : 0,
+          "attempts" : 0
+        }
+      },
+      "teams" : {
+        "home" : {
+          "team" : {
+            "id" : 5,
+            "name" : "Pittsburgh Penguins",
+            "link" : "/api/v1/teams/5",
+            "abbreviation" : "PIT",
+            "triCode" : "PIT"
+          },
+          "goals" : 1,
+          "shotsOnGoal" : 5,
+          "goaliePulled" : false,
+          "numSkaters" : 5,
+          "powerPlay" : false
+        },
+        "away" : {
+          "team" : {
+            "id" : 17,
+            "name" : "Detroit Red Wings",
+            "link" : "/api/v1/teams/17",
+            "abbreviation" : "DET",
+            "triCode" : "DET"
+          },
+          "goals" : 1,
+          "shotsOnGoal" : 5,
+          "goaliePulled" : false,
+          "numSkaters" : 5,
+          "powerPlay" : false
+        }
+      },
+      "powerPlayStrength" : "Even",
+      "hasShootout" : false,
+      "intermissionInfo" : {
+        "intermissionTimeRemaining" : 0,
+        "intermissionTimeElapsed" : 0,
+        "inIntermission" : false
+      },
+      "powerPlayInfo" : {
+        "situationTimeRemaining" : 694,
+        "situationTimeElapsed" : 506,
+        "inSituation" : false
+      }
+    },
+    "boxscore" : {
+      "teams" : {
+        "away" : {
+          "team" : {
+            "id" : 17,
+            "name" : "Detroit Red Wings",
+            "link" : "/api/v1/teams/17",
+            "abbreviation" : "DET",
+            "triCode" : "DET"
+          },
+          "teamStats" : {
+            "teamSkaterStats" : {
+              "goals" : 1,
+              "pim" : 0,
+              "shots" : 5,
+              "powerPlayPercentage" : "0.0",
+              "powerPlayGoals" : 0.0,
+              "powerPlayOpportunities" : 0.0,
+              "faceOffWinPercentage" : "40.0",
+              "blocked" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "hits" : 9
+            }
+          },
+          "players" : {
+            "ID8470318" : {
+              "person" : {
+                "id" : 8470318,
+                "fullName" : "Jonathan Ericsson",
+                "link" : "/api/v1/people/8470318",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "52",
+              "position" : {
+                "code" : "N/A",
+                "name" : "Unknown",
+                "type" : "Unknown",
+                "abbreviation" : "N/A"
+              },
+              "stats" : { }
+            },
+            "ID8471716" : {
+              "person" : {
+                "id" : 8471716,
+                "fullName" : "Justin Abdelkader",
+                "link" : "/api/v1/people/8471716",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "8",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "0:51",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 2,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "0:51",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8470657" : {
+              "person" : {
+                "id" : 8470657,
+                "fullName" : "Jimmy Howard",
+                "link" : "/api/v1/people/8470657",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "35",
+              "position" : {
+                "code" : "G",
+                "name" : "Goalie",
+                "type" : "Goalie",
+                "abbreviation" : "G"
+              },
+              "stats" : {
+                "goalieStats" : {
+                  "timeOnIce" : "7:58",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "pim" : 0,
+                  "shots" : 5,
+                  "saves" : 4,
+                  "powerPlaySaves" : 0,
+                  "shortHandedSaves" : 0,
+                  "evenSaves" : 4,
+                  "shortHandedShotsAgainst" : 0,
+                  "evenShotsAgainst" : 5,
+                  "powerPlayShotsAgainst" : 0,
+                  "savePercentage" : 80.0,
+                  "evenStrengthSavePercentage" : 80.0
+                }
+              }
+            },
+            "ID8480184" : {
+              "person" : {
+                "id" : 8480184,
+                "fullName" : "Gustav Lindstrom",
+                "link" : "/api/v1/people/8480184",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "28",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:30",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 1,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:30",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8475747" : {
+              "person" : {
+                "id" : 8475747,
+                "fullName" : "Patrik Nemeth",
+                "link" : "/api/v1/people/8475747",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "22",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:24",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:24",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8470047" : {
+              "person" : {
+                "id" : 8470047,
+                "fullName" : "Valtteri Filppula",
+                "link" : "/api/v1/people/8470047",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "51",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:41",
+                  "assists" : 0,
+                  "goals" : 1,
+                  "shots" : 1,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffPct" : 0.0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 2,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:41",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477946" : {
+              "person" : {
+                "id" : 8477946,
+                "fullName" : "Dylan Larkin",
+                "link" : "/api/v1/people/8477946",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "71",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:28",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 2,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffPct" : 100.0,
+                  "faceOffWins" : 1,
+                  "faceoffTaken" : 1,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:28",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8470110" : {
+              "person" : {
+                "id" : 8470110,
+                "fullName" : "Trevor Daley",
+                "link" : "/api/v1/people/8470110",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "83",
+              "position" : {
+                "code" : "N/A",
+                "name" : "Unknown",
+                "type" : "Unknown",
+                "abbreviation" : "N/A"
+              },
+              "stats" : { }
+            },
+            "ID8471794" : {
+              "person" : {
+                "id" : 8471794,
+                "fullName" : "Darren Helm",
+                "link" : "/api/v1/people/8471794",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "43",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:03",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "3:03",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8470144" : {
+              "person" : {
+                "id" : 8470144,
+                "fullName" : "Frans Nielsen",
+                "link" : "/api/v1/people/8470144",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "81",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:44",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffPct" : 50.0,
+                  "faceOffWins" : 1,
+                  "faceoffTaken" : 2,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "3:44",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477943" : {
+              "person" : {
+                "id" : 8477943,
+                "fullName" : "Brendan Perlini",
+                "link" : "/api/v1/people/8477943",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "29",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "0:23",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "0:23",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8473415" : {
+              "person" : {
+                "id" : 8473415,
+                "fullName" : "Alex Biega",
+                "link" : "/api/v1/people/8473415",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "3",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:28",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:28",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8476822" : {
+              "person" : {
+                "id" : 8476822,
+                "fullName" : "Luke Glendening",
+                "link" : "/api/v1/people/8476822",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "41",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:00",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 2,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "3:00",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8479425" : {
+              "person" : {
+                "id" : 8479425,
+                "fullName" : "Filip Hronek",
+                "link" : "/api/v1/people/8479425",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "17",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:04",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "3:04",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8476960" : {
+              "person" : {
+                "id" : 8476960,
+                "fullName" : "Andreas Athanasiou",
+                "link" : "/api/v1/people/8476960",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "72",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:12",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:12",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477454" : {
+              "person" : {
+                "id" : 8477454,
+                "fullName" : "Adam Erne",
+                "link" : "/api/v1/people/8477454",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "73",
+              "position" : {
+                "code" : "N/A",
+                "name" : "Unknown",
+                "type" : "Unknown",
+                "abbreviation" : "N/A"
+              },
+              "stats" : { }
+            },
+            "ID8477952" : {
+              "person" : {
+                "id" : 8477952,
+                "fullName" : "Robby Fabbri",
+                "link" : "/api/v1/people/8477952",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "14",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:43",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:43",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477479" : {
+              "person" : {
+                "id" : 8477479,
+                "fullName" : "Tyler Bertuzzi",
+                "link" : "/api/v1/people/8477479",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "59",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:21",
+                  "assists" : 1,
+                  "goals" : 0,
+                  "shots" : 1,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:21",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477511" : {
+              "person" : {
+                "id" : 8477511,
+                "fullName" : "Anthony Mantha",
+                "link" : "/api/v1/people/8477511",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "39",
+              "position" : {
+                "code" : "R",
+                "name" : "Right Wing",
+                "type" : "Forward",
+                "abbreviation" : "RW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:43",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:43",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8473541" : {
+              "person" : {
+                "id" : 8473541,
+                "fullName" : "Jonathan Bernier",
+                "link" : "/api/v1/people/8473541",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "45",
+              "position" : {
+                "code" : "G",
+                "name" : "Goalie",
+                "type" : "Goalie",
+                "abbreviation" : "G"
+              },
+              "stats" : {
+                "goalieStats" : {
+                  "timeOnIce" : "0:00",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "pim" : 0,
+                  "shots" : 0,
+                  "saves" : 0,
+                  "powerPlaySaves" : 0,
+                  "shortHandedSaves" : 0,
+                  "evenSaves" : 0,
+                  "shortHandedShotsAgainst" : 0,
+                  "evenShotsAgainst" : 0,
+                  "powerPlayShotsAgainst" : 0
+                }
+              }
+            },
+            "ID8471242" : {
+              "person" : {
+                "id" : 8471242,
+                "fullName" : "Mike Green",
+                "link" : "/api/v1/people/8471242",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "25",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:15",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "3:15",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8478036" : {
+              "person" : {
+                "id" : 8478036,
+                "fullName" : "Christoffer Ehn",
+                "link" : "/api/v1/people/8478036",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "70",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "0:45",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "0:45",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477474" : {
+              "person" : {
+                "id" : 8477474,
+                "fullName" : "Madison Bowey",
+                "link" : "/api/v1/people/8477474",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "74",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:15",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 1,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:15",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            }
+          },
+          "goalies" : [ 8470657, 8473541 ],
+          "skaters" : [ 8473415, 8471716, 8477952, 8479425, 8475747, 8471242, 8480184, 8477943, 8477511, 8476822, 8471794, 8470047, 8477479, 8478036, 8477946, 8476960, 8477474, 8470144, 8470318, 8477454, 8470110 ],
+          "onIce" : [ 8470047, 8470657, 8473415, 8475747, 8476960, 8477479 ],
+          "onIcePlus" : [ {
+            "playerId" : 8470047,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8470657,
+            "shiftDuration" : 342,
+            "stamina" : 33
+          }, {
+            "playerId" : 8473415,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8475747,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8476960,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8477479,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          } ],
+          "scratches" : [ 8470318, 8477454, 8470110 ],
+          "penaltyBox" : [ ],
+          "coaches" : [ {
+            "person" : {
+              "fullName" : "Jeff Blashill",
+              "link" : "/api/v1/people/null"
+            },
+            "position" : {
+              "code" : "HC",
+              "name" : "Head Coach",
+              "type" : "Head Coach",
+              "abbreviation" : "Head Coach"
+            }
+          } ]
+        },
+        "home" : {
+          "team" : {
+            "id" : 5,
+            "name" : "Pittsburgh Penguins",
+            "link" : "/api/v1/teams/5",
+            "abbreviation" : "PIT",
+            "triCode" : "PIT"
+          },
+          "teamStats" : {
+            "teamSkaterStats" : {
+              "goals" : 1,
+              "pim" : 0,
+              "shots" : 5,
+              "powerPlayPercentage" : "0.0",
+              "powerPlayGoals" : 0.0,
+              "powerPlayOpportunities" : 0.0,
+              "faceOffWinPercentage" : "60.0",
+              "blocked" : 0,
+              "takeaways" : 3,
+              "giveaways" : 2,
+              "hits" : 3
+            }
+          },
+          "players" : {
+            "ID8471724" : {
+              "person" : {
+                "id" : 8471724,
+                "fullName" : "Kris Letang",
+                "link" : "/api/v1/people/8471724",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "58",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:04",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 1,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "3:04",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8476927" : {
+              "person" : {
+                "id" : 8476927,
+                "fullName" : "Teddy Blueger",
+                "link" : "/api/v1/people/8476927",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "53",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:33",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffPct" : 100.0,
+                  "faceOffWins" : 1,
+                  "faceoffTaken" : 1,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "1:33",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8474602" : {
+              "person" : {
+                "id" : 8474602,
+                "fullName" : "Justin Schultz",
+                "link" : "/api/v1/people/8474602",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "4",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:39",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "3:39",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477969" : {
+              "person" : {
+                "id" : 8477969,
+                "fullName" : "Marcus Pettersson",
+                "link" : "/api/v1/people/8477969",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "28",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:36",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "3:36",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8471675" : {
+              "person" : {
+                "id" : 8471675,
+                "fullName" : "Sidney Crosby",
+                "link" : "/api/v1/people/8471675",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "87",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:40",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffPct" : 50.0,
+                  "faceOffWins" : 1,
+                  "faceoffTaken" : 2,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:40",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8478507" : {
+              "person" : {
+                "id" : 8478507,
+                "fullName" : "John Marino",
+                "link" : "/api/v1/people/8478507",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "6",
+              "position" : {
+                "code" : "N/A",
+                "name" : "Unknown",
+                "type" : "Unknown",
+                "abbreviation" : "N/A"
+              },
+              "stats" : { }
+            },
+            "ID8471887" : {
+              "person" : {
+                "id" : 8471887,
+                "fullName" : "Patric Hornqvist",
+                "link" : "/api/v1/people/8471887",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "72",
+              "position" : {
+                "code" : "R",
+                "name" : "Right Wing",
+                "type" : "Forward",
+                "abbreviation" : "RW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:27",
+                  "assists" : 1,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:27",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8478866" : {
+              "person" : {
+                "id" : 8478866,
+                "fullName" : "Dominik Simon",
+                "link" : "/api/v1/people/8478866",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "12",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "3:01",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 1,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 1,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "3:01",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8475722" : {
+              "person" : {
+                "id" : 8475722,
+                "fullName" : "Jason Zucker",
+                "link" : "/api/v1/people/8475722",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "16",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:43",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 1,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:43",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8475810" : {
+              "person" : {
+                "id" : 8475810,
+                "fullName" : "Bryan Rust",
+                "link" : "/api/v1/people/8475810",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "17",
+              "position" : {
+                "code" : "R",
+                "name" : "Right Wing",
+                "type" : "Forward",
+                "abbreviation" : "RW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:22",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:22",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8479944" : {
+              "person" : {
+                "id" : 8479944,
+                "fullName" : "Zach Aston-Reese",
+                "link" : "/api/v1/people/8479944",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "46",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:30",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 1,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "1:30",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8476899" : {
+              "person" : {
+                "id" : 8476899,
+                "fullName" : "Matt Murray",
+                "link" : "/api/v1/people/8476899",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "30",
+              "position" : {
+                "code" : "G",
+                "name" : "Goalie",
+                "type" : "Goalie",
+                "abbreviation" : "G"
+              },
+              "stats" : {
+                "goalieStats" : {
+                  "timeOnIce" : "7:58",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "pim" : 0,
+                  "shots" : 5,
+                  "saves" : 4,
+                  "powerPlaySaves" : 0,
+                  "shortHandedSaves" : 0,
+                  "evenSaves" : 4,
+                  "shortHandedShotsAgainst" : 0,
+                  "evenShotsAgainst" : 5,
+                  "powerPlayShotsAgainst" : 0,
+                  "savePercentage" : 80.0,
+                  "evenStrengthSavePercentage" : 80.0
+                }
+              }
+            },
+            "ID8471677" : {
+              "person" : {
+                "id" : 8471677,
+                "fullName" : "Jack Johnson",
+                "link" : "/api/v1/people/8471677",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "3",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:53",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "2:53",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477955" : {
+              "person" : {
+                "id" : 8477955,
+                "fullName" : "Jared McCann",
+                "link" : "/api/v1/people/8477955",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "19",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:34",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 1,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:34",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8471215" : {
+              "person" : {
+                "id" : 8471215,
+                "fullName" : "Evgeni Malkin",
+                "link" : "/api/v1/people/8471215",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "71",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "2:24",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffPct" : 50.0,
+                  "faceOffWins" : 1,
+                  "faceoffTaken" : 2,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 0,
+                  "evenTimeOnIce" : "2:24",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8477465" : {
+              "person" : {
+                "id" : 8477465,
+                "fullName" : "Tristan Jarry",
+                "link" : "/api/v1/people/8477465",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "35",
+              "position" : {
+                "code" : "G",
+                "name" : "Goalie",
+                "type" : "Goalie",
+                "abbreviation" : "G"
+              },
+              "stats" : {
+                "goalieStats" : {
+                  "timeOnIce" : "0:00",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "pim" : 0,
+                  "shots" : 0,
+                  "saves" : 0,
+                  "powerPlaySaves" : 0,
+                  "shortHandedSaves" : 0,
+                  "evenSaves" : 0,
+                  "shortHandedShotsAgainst" : 0,
+                  "evenShotsAgainst" : 0,
+                  "powerPlayShotsAgainst" : 0
+                }
+              }
+            },
+            "ID8480945" : {
+              "person" : {
+                "id" : 8480945,
+                "fullName" : "Juuso Riikola",
+                "link" : "/api/v1/people/8480945",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "50",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:24",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:24",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8480946" : {
+              "person" : {
+                "id" : 8480946,
+                "fullName" : "Dominik Kahun",
+                "link" : "/api/v1/people/8480946",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "24",
+              "position" : {
+                "code" : "N/A",
+                "name" : "Unknown",
+                "type" : "Unknown",
+                "abbreviation" : "N/A"
+              },
+              "stats" : { }
+            },
+            "ID8477244" : {
+              "person" : {
+                "id" : 8477244,
+                "fullName" : "Chad Ruhwedel",
+                "link" : "/api/v1/people/8477244",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "2",
+              "position" : {
+                "code" : "D",
+                "name" : "Defenseman",
+                "type" : "Defenseman",
+                "abbreviation" : "D"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:20",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 1,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:20",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8475461" : {
+              "person" : {
+                "id" : 8475461,
+                "fullName" : "Andrew Agozzino",
+                "link" : "/api/v1/people/8475461",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "26",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:21",
+                  "assists" : 1,
+                  "goals" : 0,
+                  "shots" : 0,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 1,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:21",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8478074" : {
+              "person" : {
+                "id" : 8478074,
+                "fullName" : "Anthony Angello",
+                "link" : "/api/v1/people/8478074",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "57",
+              "position" : {
+                "code" : "N/A",
+                "name" : "Unknown",
+                "type" : "Unknown",
+                "abbreviation" : "N/A"
+              },
+              "stats" : { }
+            },
+            "ID8478043" : {
+              "person" : {
+                "id" : 8478043,
+                "fullName" : "Sam Lafferty",
+                "link" : "/api/v1/people/8478043",
+                "shootsCatches" : "R",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "37",
+              "position" : {
+                "code" : "C",
+                "name" : "Center",
+                "type" : "Forward",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:11",
+                  "assists" : 0,
+                  "goals" : 1,
+                  "shots" : 2,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : 1,
+                  "evenTimeOnIce" : "1:11",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            },
+            "ID8479293" : {
+              "person" : {
+                "id" : 8479293,
+                "fullName" : "Brandon Tanev",
+                "link" : "/api/v1/people/8479293",
+                "shootsCatches" : "L",
+                "rosterStatus" : "Y"
+              },
+              "jerseyNumber" : "13",
+              "position" : {
+                "code" : "L",
+                "name" : "Left Wing",
+                "type" : "Forward",
+                "abbreviation" : "LW"
+              },
+              "stats" : {
+                "skaterStats" : {
+                  "timeOnIce" : "1:08",
+                  "assists" : 0,
+                  "goals" : 0,
+                  "shots" : 1,
+                  "hits" : 0,
+                  "powerPlayGoals" : 0,
+                  "powerPlayAssists" : 0,
+                  "penaltyMinutes" : 0,
+                  "faceOffWins" : 0,
+                  "faceoffTaken" : 0,
+                  "takeaways" : 0,
+                  "giveaways" : 0,
+                  "shortHandedGoals" : 0,
+                  "shortHandedAssists" : 0,
+                  "blocked" : 0,
+                  "plusMinus" : -1,
+                  "evenTimeOnIce" : "1:08",
+                  "powerPlayTimeOnIce" : "0:00",
+                  "shortHandedTimeOnIce" : "0:00"
+                }
+              }
+            }
+          },
+          "goalies" : [ 8476899, 8477465 ],
+          "skaters" : [ 8477244, 8471677, 8474602, 8478866, 8479293, 8475722, 8475810, 8477955, 8475461, 8477969, 8478043, 8479944, 8480945, 8476927, 8471724, 8471215, 8471887, 8471675, 8478507, 8480946, 8478074 ],
+          "onIce" : [ 8471215, 8475810, 8476899, 8477244, 8477955, 8480945 ],
+          "onIcePlus" : [ {
+            "playerId" : 8471215,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8475810,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8476899,
+            "shiftDuration" : 464,
+            "stamina" : 33
+          }, {
+            "playerId" : 8477244,
+            "shiftDuration" : 49,
+            "stamina" : 66
+          }, {
+            "playerId" : 8477955,
+            "shiftDuration" : 28,
+            "stamina" : 100
+          }, {
+            "playerId" : 8480945,
+            "shiftDuration" : 49,
+            "stamina" : 66
+          } ],
+          "scratches" : [ 8478507, 8480946, 8478074 ],
+          "penaltyBox" : [ ],
+          "coaches" : [ {
+            "person" : {
+              "fullName" : "Mike Sullivan",
+              "link" : "/api/v1/people/null"
+            },
+            "position" : {
+              "code" : "HC",
+              "name" : "Head Coach",
+              "type" : "Head Coach",
+              "abbreviation" : "Head Coach"
+            }
+          } ]
+        }
+      },
+      "officials" : [ {
+        "official" : {
+          "id" : 4650,
+          "fullName" : "Jon McIsaac",
+          "link" : "/api/v1/people/4650"
+        },
+        "officialType" : "Referee"
+      }, {
+        "official" : {
+          "id" : 2303,
+          "fullName" : "Kevin Pollock",
+          "link" : "/api/v1/people/2303"
+        },
+        "officialType" : "Referee"
+      }, {
+        "official" : {
+          "id" : 7419,
+          "fullName" : "Jesse Marquis",
+          "link" : "/api/v1/people/7419"
+        },
+        "officialType" : "Linesman"
+      }, {
+        "official" : {
+          "id" : 6991,
+          "fullName" : "Kory Nagy",
+          "link" : "/api/v1/people/6991"
+        },
+        "officialType" : "Linesman"
+      } ]
+    },
+    "decisions" : { }
+  }
+}

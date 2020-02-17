@@ -39,8 +39,8 @@ const PerDates = props => {
     const easterndate = new Intl.DateTimeFormat('de-DE', options).format(date);
 
     const year = easterndate.slice(6, 10);
-    const month = easterndate.slice(0, 2);
-    const day = easterndate.slice(3, 5);
+    const month = easterndate.slice(3, 5);
+    const day = easterndate.slice(0, 2);
 
     const initialSearchDate = year + month + day;
 
