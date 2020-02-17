@@ -6,10 +6,10 @@ const Container = styled.div`
     font-weight: 700;
 `;
 
-const Time = styled.div`
+const Time = styled.time`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 `;
 const Label = styled.div`
     text-align: left;

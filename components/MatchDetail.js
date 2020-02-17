@@ -68,7 +68,7 @@ const getTeamLogo = short => {
 
 const MatchDetail = props => {
     return (
-        <MatchComp key={props.match.id}>
+        <MatchComp>
             <Link href="/match/[id]" as={`/match/${props.match.id}`} passHref>
                 <ATag>
                     <FranLogo src={`/logos/${getTeamLogo(props.match.a)}`} alt="img-franlogo" />
